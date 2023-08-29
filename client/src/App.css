@@ -1,38 +1,196 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131223;
+  color: #ffccff;
+  margin: 5% auto;
   text-align: center;
+  font-size: 16px;
+  font-family: Georgia, sans-serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+  color: #ffccff;
+  animation: 3s ease-in-out infinite linkfade
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navbar {
+  position: fixed;
+  top: 0%;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  background-color: #131223;
+  padding: 2%;
+  z-index: 1;
+}
+
+.nav-link {
+  padding: 0 1%;
+}
+
+.nav-link:hover {
+  border-radius: 10px;
+  transform: scale(1.5);
+  animation: 1s ease-in-out infinite navline
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 60%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0 auto;
   color: white;
+  border-bottom: 1px solid #ffccff;
+  padding: 0 5%
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  word-spacing: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#projects-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px 10px;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid;
+  max-width: 350px;
+  position: relative;
+}
+
+.project-tile p {
+  padding: 0 2%;
+}
+
+.github {
+  position: absolute;
+  right: 5;
+  bottom: 1
+}
+
+.video {
+  aspect-ratio: 16 / 9
+}
+
+.tech {
+  font-size: .8em;
+  color: #ccc;
+  opacity: .75;
+  font-style: italic;
+  margin-bottom: 1%;
+}
+
+#contact {
+  margin: 0 auto;
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact i {
+  font-size: 3em;
+  margin: 0 1em;
+}
+
+@media only screen and (max-width: 540px) {
+  body {
+    font-size: 14px;
   }
+}
+
+@keyframes linkfade {
+  from {
+    opacity: 1
+  }
+
+  50% {
+    opacity: 0
+  }
+
   to {
-    transform: rotate(360deg);
+    opacity: 1
+  }
+}
+
+@keyframes navline {
+  0% {
+    border-bottom: 1px solid rgba(255, 207, 255, .33)
+  }
+
+  10% {
+    border-bottom: 1px solid rgba(255, 207, 255, .67);
+    border-left: 1px solid rgba(255, 207, 255, .33)
+  }
+
+  20% {
+    border-bottom: 1px solid rgba(255, 207, 255, 1);
+    border-left: 1px solid rgba(255, 207, 255, .67);
+    border-top: 1px solid rgba(255, 207, 255, .33);
+  }
+
+  30% {
+    border-bottom: 1px solid rgba(255, 207, 255, .67);
+    border-left: 1px solid rgba(255, 207, 255, 1);
+    border-top: 1px solid rgba(255, 207, 255, .67);
+    border-right: 1px solid rgba(255, 207, 255, .33)
+  }
+
+  40% {
+    border-bottom: 1px solid rgba(255, 207, 255, .33);
+    border-left: 1px solid rgba(255, 207, 255, .67);
+    border-top: 1px solid rgba(255, 207, 255, 1);
+    border-right: 1px solid rgba(255, 207, 255, .67)
+  }
+
+  50% {
+    border-bottom: none;
+    border-left: 1px solid rgba(255, 207, 255, .33);
+    border-top: 1px solid rgba(255, 207, 255, .67);
+    border-right: 1px solid rgba(255, 207, 255, 1)
+  }
+
+  60% {
+    border-bottom: none;
+    border-left: none;
+    border-top: 1px solid rgba(255, 207, 255, .33);
+    border-right: 1px solid rgba(255, 207, 255, .67)
+  }
+
+  70% {
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-right: 1px solid rgba(255, 207, 255, .33)
+  }
+
+  80% {
+    border: none;
   }
 }
