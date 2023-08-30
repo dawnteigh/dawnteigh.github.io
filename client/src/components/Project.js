@@ -10,6 +10,8 @@ const Project = ({ project }) => {
       <h2>{name}</h2>
       <EmbeddedVideo name={name} videoId={videoId} />
       <p>{parse(desc)}</p>
+      <span className="tech">{stack}</span>
+      <a class="github" href={repo} target="_blank"><i class="fa-brands fa-github"></i> Repo</a>
     </div>
   )
 }
