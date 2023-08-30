@@ -5,8 +5,8 @@ export const projects = [
     img: "",
     highlights: [],
     stack: "React - JSON Server",
-    repo_url: "https://github.com/dawnteigh/Pokedex-Master",
-    video_url: "https://youtu.be/H_qdlnG3dpU"
+    repo: "https://github.com/dawnteigh/Pokedex-Master",
+    videoId: "H_qdlnG3dpU"
   },
   {
     name: "Dice Goblin",
@@ -14,8 +14,8 @@ export const projects = [
     img: "",
     highlights: [],
     stack: "React - Ruby - Sinatra - SQLite",
-    repo_url: "https://github.com/dawnteigh/Dice-Goblin",
-    video_url: "https://youtu.be/pMznK35uu4A"
+    repo: "https://github.com/dawnteigh/Dice-Goblin",
+    videoId: "pMznK35uu4A"
   },
   {
     name: "Tossed and Found",
@@ -23,8 +23,8 @@ export const projects = [
     img: "",
     highlights: [],
     stack: "React - Ruby on Rails - PostgreSQL",
-    repo_url: "https://github.com/dawnteigh/Tossed-and-Found",
-    video_url: "https://youtu.be/K-DG0ddg90s"
+    repo: "https://github.com/dawnteigh/Tossed-and-Found",
+    videoId: "K-DG0ddg90s"
   },
   {
     name: "Word of Mouth",
@@ -32,7 +32,7 @@ export const projects = [
     img: "",
     highlights: [],
     stack: "React - Redux - Ruby on Rails - PostgreSQL",
-    repo_url: "https://github.com/dawnteigh/word-of-mouth",
-    video_url: "https://youtu.be/1c1RF5p3fbM"
+    repo: "https://github.com/dawnteigh/word-of-mouth",
+    videoId: "1c1RF5p3fbM"
   },
 ]
