@@ -36,14 +36,28 @@ a:hover {
   padding: 0 1%;
 }
 
-#navbar a.active {
-  color: #ffccff;
-}
-
 #navbar a:hover {
   color: #ffccff;
-  border-radius: 50px;
-  animation: 1s ease-in-out infinite navline
+  transform: scale(1.2);
+  animation: none;
+}
+
+#navbar a.active {
+  color: #ffccff;
+  transform: scale(1.2);
+}
+
+#navbar a.active:hover {
+  animation: none;
+  cursor: default;
+}
+
+#navbar a.active::after {
+  content: "";
+  border-bottom: 1px solid #ffccff;
+  margin: 0 auto;
+  animation: 1s ease-in-out underline;
+  display: block;
 }
 
 #welcome-section {
@@ -158,6 +172,18 @@ p {
 
   to {
     opacity: 1
+  }
+}
+
+@keyframes underline {
+  from {
+    border-bottom: 1px solid #ffccff;
+    margin: 0 50%;
+  }
+
+  to {
+    border-bottom: 1px solid #ffccff;
+    margin: 0;
   }
 }
 
