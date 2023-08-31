@@ -32,13 +32,17 @@ a:hover {
   z-index: 1;
 }
 
-.nav-link {
+#navbar a {
   padding: 0 1%;
 }
 
-.nav-link:hover {
-  border-radius: 10px;
-  transform: scale(1.5);
+#navbar a.active {
+  color: #ffccff;
+}
+
+#navbar a:hover {
+  color: #ffccff;
+  border-radius: 50px;
   animation: 1s ease-in-out infinite navline
 }
 
@@ -120,9 +124,26 @@ p {
   margin: 0 1em;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 760px) {
   body {
     font-size: 14px;
+    margin-top: 7%;
+  }
+
+  #projects-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px 10px;
+  }
+
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    max-width: 350px;
+    position: relative;
   }
 }
 
