@@ -11,12 +11,14 @@ body {
   font-family: Georgia, sans-serif
 }
 
-a {
+a,
+.youtube {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+.youtube:hover {
   color: #ffccff;
   animation: 3s ease-in-out infinite linkfade
 }
@@ -97,7 +99,7 @@ p {
   flex-direction: column;
   justify-content: center;
   border: 1px solid;
-  max-width: 350px;
+  max-width: 500px;
   position: relative;
 }
 
@@ -112,8 +114,21 @@ p {
   padding: 1%;
 }
 
+.youtube {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 1%;
+  background-color: #131223;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-family: Georgia, sans-serif;
+}
+
 .video {
-  aspect-ratio: 16 / 9
+  aspect-ratio: 16 / 9;
+  border: none;
 }
 
 .tech {
@@ -121,7 +136,7 @@ p {
   color: #ccc;
   opacity: .75;
   font-style: italic;
-  margin-bottom: 1%;
+  margin: 0 auto 1%;
 }
 
 #contact {
