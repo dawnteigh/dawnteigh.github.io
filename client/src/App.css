@@ -101,6 +101,7 @@ p {
 .project-tile {
   display: flex;
   flex-direction: column;
+  background-color: #131223;
   justify-content: center;
   border: 1px solid #ffccff;
   border-radius: 5px;
@@ -111,6 +112,7 @@ p {
 
 .project-tile:hover {
   animation: 3s ease-in-out infinite softglow;
+  transform: translateX(-1px) translateY(-2px);
 }
 
 .project-tile p {
