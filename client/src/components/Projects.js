@@ -11,7 +11,6 @@ const Projects = () => {
   })
   return (
     <div id="projects">
-      <h1>Portfolio</h1>
       <div id="projects-div">
         {displayProjects}
       </div>

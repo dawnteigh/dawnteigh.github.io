@@ -87,6 +87,10 @@ p {
   word-spacing: 3px;
 }
 
+#projects {
+  margin-top: 10%;
+}
+
 #projects-div {
   display: flex;
   flex-flow: row wrap;
@@ -98,9 +102,15 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid;
+  border: 1px solid #ffccff;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px 1px rgba(115, 108, 115, 0.5);
   max-width: 500px;
   position: relative;
+}
+
+.project-tile:hover {
+  animation: 3s ease-in-out infinite softglow;
 }
 
 .project-tile p {
@@ -111,14 +121,14 @@ p {
   position: absolute;
   right: 0;
   bottom: 0;
-  padding: 1%;
+  margin: 1%;
 }
 
 .youtube {
   position: absolute;
   left: 0;
   bottom: 0;
-  padding: 1%;
+  margin: 1%;
   background-color: #131223;
   cursor: pointer;
   border: none;
@@ -170,7 +180,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid;
     max-width: 350px;
     position: relative;
   }
@@ -199,6 +208,20 @@ p {
   to {
     border-bottom: 1px solid #ffccff;
     margin: 0;
+  }
+}
+
+@keyframes softglow {
+  from {
+    box-shadow: 2px 3px 3px 1px rgba(115, 108, 115, 0.5);
+  }
+
+  50% {
+    box-shadow: 3px 3px 5px 3px rgba(255, 204, 255, 0.5), -3px -3px 5px 3px rgba(255, 204, 255, 0.5);
+  }
+
+  to {
+    box-shadow: 2px 3px 3px 1px rgba(115, 108, 115, 0.5);
   }
 }
 
