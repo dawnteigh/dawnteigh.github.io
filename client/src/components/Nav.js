@@ -10,7 +10,7 @@ const Nav = () => {
           isPending ? "pending" : isActive ? "active" : ""
         }
       >
-        Home
+        About
       </NavLink>
       <NavLink
         to="/portfolio"
