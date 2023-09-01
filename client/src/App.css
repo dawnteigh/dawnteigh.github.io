@@ -64,11 +64,35 @@ a:hover,
 
 #about {
   height: 100vh;
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#bio {
+  max-width: 50%;
+}
+
+#activity-log {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.activity {
+  font-size: .9em;
+}
+
+.date {
+  font-size: .8em;
+  color: #dcdada;
+  opacity: .75;
+  font-style: italic;
+  float: left;
 }
 
 h1 {

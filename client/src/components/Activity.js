@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Activity = () => {
+const Activity = ({ activity }) => {
   return (
-    <div>Activity</div>
+    <div className='activity'>
+      <span className='date'>{activity.date}</span>
+      <p>{activity.entry}</p>
+    </div>
   )
 }
 

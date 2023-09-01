@@ -7,7 +7,7 @@ const ActivityLog = () => {
   const displayActivity = activity.map((a, i) => (<Activity key={i} activity={a} />))
 
   return (
-    <div>
+    <div id="activity-log">
       {displayActivity}
     </div>
   )
