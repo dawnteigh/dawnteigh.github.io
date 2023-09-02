@@ -1,12 +1,13 @@
-import dicegoblin from "../dicegoblin.gif"
+import dicegoblin from "../assets/dicegoblin.gif"
+import pokedexmaster from "../assets/pokedex-master.gif"
 
 export const projects = [
   {
     name: "Pokédex Master",
     desc: `Users are shown a Pokédex entry and prompted to guess the associated Pokémon to capture it. Powered by data from <a href="https://pokeapi.co/" target="_blank">PokéAPI</a>.`,
-    img: "",
+    img: pokedexmaster,
     highlights: [],
-    stack: "React - JSON Server",
+    stack: "React - Node.js - Express - Mongoose - MongoDB",
     repo: "https://github.com/dawnteigh/Pokedex-Master",
     videoId: "H_qdlnG3dpU"
   },
