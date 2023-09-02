@@ -10,10 +10,13 @@ const PopupPlayer = ({ show, setShow }) => {
   })
 
   return (
-    <div id="player">
-      <button onClick={handleClose}>X</button>
-      <EmbeddedVideo show={show} />
-    </div>
+    <>
+      <div className="focus"></div>
+      <div id="player">
+        <button className="close" onClick={handleClose}><i className="fa-solid fa-xmark"></i></button>
+        <EmbeddedVideo show={show} />
+      </div>
+    </>
   )
 }
 

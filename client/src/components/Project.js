@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactFreezeframe from 'react-freezeframe'
 import parse from 'html-react-parser'
 
 
@@ -15,7 +16,7 @@ const Project = ({ project, setShow }) => {
   return (
     <div className='project-tile'>
       <h2>{name}</h2>
-      <img src={img} alt={name} />
+      <ReactFreezeframe src={img} alt={name} />
       <p>{parse(desc)}</p>
       <button className='youtube' onClick={handleVideoClick}><i className="fa-brands fa-youtube"></i> Video</button>
       <span className="tech">{stack}</span>

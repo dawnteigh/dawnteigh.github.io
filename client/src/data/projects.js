@@ -1,3 +1,5 @@
+import dicegoblin from "../dicegoblin.gif"
+
 export const projects = [
   {
     name: "Pokédex Master",
@@ -11,7 +13,7 @@ export const projects = [
   {
     name: "Dice Goblin",
     desc: "Users can manage their dice collection and track rolls to garner meaningful statistics regarding specific throwing techniques or the balance of their dice. ",
-    img: "",
+    img: dicegoblin,
     highlights: [],
     stack: "React - Ruby - Sinatra - SQLite",
     repo: "https://github.com/dawnteigh/Dice-Goblin",
