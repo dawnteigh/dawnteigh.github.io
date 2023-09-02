@@ -1,5 +1,7 @@
 import dicegoblin from "../assets/dicegoblin.gif"
 import pokedexmaster from "../assets/pokedex-master.gif"
+import tossedandfound from "../assets/tossed-and-found.gif"
+import wordofmouth from "../assets/word-of-mouth.gif"
 
 export const projects = [
   {
@@ -23,7 +25,7 @@ export const projects = [
   {
     name: "Tossed and Found",
     desc: "Users can track their disc golf disc collections, scorekeep rounds, and message other users. Discs are given a unique finder key that can be written on the back, allowing lost discs to be returned to their owners through the app.",
-    img: "",
+    img: tossedandfound,
     highlights: [],
     stack: "React - Ruby on Rails - PostgreSQL",
     repo: "https://github.com/dawnteigh/Tossed-and-Found",
@@ -32,7 +34,7 @@ export const projects = [
   {
     name: "Word of Mouth",
     desc: "Users can find the top-rated restaurants based on a specific dish, and submit food-centric reviews of their own.",
-    img: "",
+    img: wordofmouth,
     highlights: [],
     stack: "React - Redux - Ruby on Rails - PostgreSQL",
     repo: "https://github.com/dawnteigh/word-of-mouth",

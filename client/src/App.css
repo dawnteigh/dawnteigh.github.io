@@ -31,7 +31,7 @@ button:hover {
   justify-content: space-evenly;
   background-color: #131223;
   padding: 2%;
-  z-index: 1;
+  z-index: 998;
 }
 
 #navbar a {
