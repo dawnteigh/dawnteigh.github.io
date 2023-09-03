@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactFreezeframe from 'react-freezeframe'
+import React, { useState } from 'react'
 import parse from 'html-react-parser'
 
 
 const Project = ({ project, setShow }) => {
   const { name, desc, img, highlights, stack, repo, videoId } = project
+  const [animate, setAnimate] = useState(false)
   const handleVideoClick = () => {
     setShow({
       name: name,
@@ -14,9 +14,9 @@ const Project = ({ project, setShow }) => {
   }
 
   return (
-    <div className='project-tile'>
+    <div className='project-tile' onMouseEnter={() => setAnimate(true)} onMouseLeave={() => setAnimate(false)} >
       <h2>{name}</h2>
-      <ReactFreezeframe src={img} alt={name} />
+      <img src={animate ? img.gif : img.static} alt={name} />
       <p>{parse(desc)}</p>
       <button className='youtube' onClick={handleVideoClick}><i className="fa-brands fa-youtube"></i> Video</button>
       <span className="tech">{stack}</span>
