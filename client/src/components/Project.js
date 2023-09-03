@@ -16,7 +16,9 @@ const Project = ({ project, setShow }) => {
   return (
     <div className='project-tile' onMouseEnter={() => setAnimate(true)} onMouseLeave={() => setAnimate(false)} >
       <h2>{name}</h2>
-      <img src={animate ? img.gif : img.static} alt={name} />
+      <div className="img-container">
+        <img src={animate ? img.gif : img.static} alt={name} className="project-img" />
+      </div>
       <p>{parse(desc)}</p>
       <button className='youtube' onClick={handleVideoClick}><i className="fa-brands fa-youtube"></i> Video</button>
       <span className="tech">{stack}</span>

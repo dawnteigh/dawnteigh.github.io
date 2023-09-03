@@ -130,7 +130,8 @@ p {
   border: 1px solid #ffccff;
   border-radius: 5px;
   box-shadow: 2px 3px 3px 1px rgba(115, 108, 115, 0.5);
-  max-width: 500px;
+  max-width: 50vw;
+  overflow: hidden;
   position: relative;
 }
 
@@ -140,6 +141,11 @@ p {
 
 .project-tile p {
   padding: 0 2%;
+}
+
+.project-img {
+  max-height: 350px;
+  max-width: auto;
 }
 
 .github {
