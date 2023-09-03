@@ -136,7 +136,6 @@ p {
 
 .project-tile:hover {
   animation: 3s ease-in-out infinite softglow;
-  transform: translateX(-1px) translateY(-2px);
 }
 
 .project-tile p {
