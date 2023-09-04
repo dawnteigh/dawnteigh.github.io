@@ -109,8 +109,8 @@ h1 {
 h2 {
   margin: 0 auto;
   color: white;
-  border-bottom: 1px solid #ffccff;
-  padding: 0 5%
+  text-shadow: 0px 0px 5px #ffccff;
+  padding: 1% 5%
 }
 
 p {
