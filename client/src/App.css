@@ -11,6 +11,28 @@ body {
   font-family: Georgia, sans-serif
 }
 
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0 auto;
+  color: white;
+  text-shadow: 0px 0px 5px #ffccff;
+  padding: 1% 5%
+}
+
+p {
+  word-spacing: 3px;
+}
+
+.secondary-paragraph {
+  word-spacing: normal;
+  font-size: .9em;
+  margin: 0 auto 1%;
+}
+
 a,
 .youtube {
   color: white;
@@ -23,6 +45,7 @@ button:hover {
   animation: 3s ease-in-out infinite linkfade
 }
 
+/* Nav Bar */
 #navbar {
   position: fixed;
   top: 0%;
@@ -62,6 +85,7 @@ button:hover {
   display: block;
 }
 
+/* Home page */
 #about {
   width: 75%;
   margin: 0 auto;
@@ -73,7 +97,7 @@ button:hover {
 }
 
 #bio {
-  max-width: 50%;
+  width: 50%;
 }
 
 .bio-pic {
@@ -82,6 +106,14 @@ button:hover {
   border-radius: 100%;
 }
 
+#extras {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* Activity Log */
 #activity-log {
   max-width: 50%;
   display: flex;
@@ -101,22 +133,48 @@ button:hover {
   float: left;
 }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 0;
+/* Toolbox Section */
+#toolbox {
+  width: 60%;
 }
 
-h2 {
-  margin: 0 auto;
+#skill-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.skill {
   color: white;
-  text-shadow: 0px 0px 5px #ffccff;
-  padding: 1% 5%
+  padding: 1%;
+  margin: 1%;
+  border-radius: 5px;
+  font-size: .8em;
 }
 
-p {
-  word-spacing: 3px;
+.one {
+  background-color: rgba(193, 0, 223, 0.5);
 }
 
+.two {
+  background-color: rgba(193, 0, 223, 0.625);
+}
+
+.three {
+  background-color: rgba(193, 0, 223, 0.75);
+}
+
+.four {
+  background-color: rgba(193, 0, 223, 0.875);
+  box-shadow: 0 0 2px 1px rgba(193, 0, 223, 0.5);
+}
+
+.five {
+  background-color: rgb(193, 0, 223);
+  box-shadow: 0 0 3px 2px rgba(193, 0, 223, 0.5);
+}
+
+/* Portfolio Section */
 #projects {
   margin-top: 5%;
 }
@@ -224,6 +282,7 @@ p {
   margin: 0 auto 1%;
 }
 
+/* Contact */
 #contact {
   margin: 0 auto;
   width: 50%;
@@ -245,6 +304,7 @@ p {
   font-size: 3em;
 }
 
+/* Screen size rules */
 @media only screen and (max-width: 760px) {
   body {
     font-size: 14px;
@@ -267,6 +327,7 @@ p {
   }
 }
 
+/* Animations */
 @keyframes linkfade {
   from {
     opacity: 1
@@ -304,61 +365,5 @@ p {
 
   to {
     box-shadow: 2px 3px 3px 1px rgba(115, 108, 115, 0.5);
-  }
-}
-
-@keyframes navline {
-  0% {
-    border-bottom: 1px solid rgba(255, 207, 255, .33)
-  }
-
-  10% {
-    border-bottom: 1px solid rgba(255, 207, 255, .67);
-    border-left: 1px solid rgba(255, 207, 255, .33)
-  }
-
-  20% {
-    border-bottom: 1px solid rgba(255, 207, 255, 1);
-    border-left: 1px solid rgba(255, 207, 255, .67);
-    border-top: 1px solid rgba(255, 207, 255, .33);
-  }
-
-  30% {
-    border-bottom: 1px solid rgba(255, 207, 255, .67);
-    border-left: 1px solid rgba(255, 207, 255, 1);
-    border-top: 1px solid rgba(255, 207, 255, .67);
-    border-right: 1px solid rgba(255, 207, 255, .33)
-  }
-
-  40% {
-    border-bottom: 1px solid rgba(255, 207, 255, .33);
-    border-left: 1px solid rgba(255, 207, 255, .67);
-    border-top: 1px solid rgba(255, 207, 255, 1);
-    border-right: 1px solid rgba(255, 207, 255, .67)
-  }
-
-  50% {
-    border-bottom: none;
-    border-left: 1px solid rgba(255, 207, 255, .33);
-    border-top: 1px solid rgba(255, 207, 255, .67);
-    border-right: 1px solid rgba(255, 207, 255, 1)
-  }
-
-  60% {
-    border-bottom: none;
-    border-left: none;
-    border-top: 1px solid rgba(255, 207, 255, .33);
-    border-right: 1px solid rgba(255, 207, 255, .67)
-  }
-
-  70% {
-    border-bottom: none;
-    border-left: none;
-    border-top: none;
-    border-right: 1px solid rgba(255, 207, 255, .33)
-  }
-
-  80% {
-    border: none;
   }
 }

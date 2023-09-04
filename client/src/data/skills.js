@@ -1,71 +1,71 @@
 export const skills = [
   {
     skill: "HTML",
-    level: "5"
+    level: "five"
   },
   {
     skill: "CSS",
-    level: "5"
+    level: "five"
   },
   {
     skill: "Sass",
-    level: "2"
+    level: "two"
   },
   {
     skill: "Tailwind",
-    level: "1"
+    level: "one"
   },
   {
     skill: "Javascript",
-    level: "5"
+    level: "five"
   },
   {
     skill: "jQuery",
-    level: "2"
+    level: "two"
   },
   {
     skill: "React",
-    level: "5"
+    level: "five"
   },
   {
     skill: "Redux",
-    level: "4"
+    level: "four"
   },
   {
     skill: "Node.js",
-    level: "3"
+    level: "three"
   },
   {
     skill: "Ruby",
-    level: "5"
+    level: "five"
   },
   {
     skill: "Rails",
-    level: "4"
+    level: "four"
   },
   {
     skill: "Python",
-    level: "3"
+    level: "three"
   },
   {
     skill: "SQL",
-    level: "5"
+    level: "five"
   },
   {
     skill: "PostgreSQL",
-    level: "5"
+    level: "five"
   },
   {
     skill: "MongoDB",
-    level: "3"
+    level: "three"
   },
   {
     skill: "Jest",
-    level: "2"
+    level: "two"
   },
   {
     skill: "Git",
-    level: "4"
+    level: "four"
   }
 
 ]
