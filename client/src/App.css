@@ -41,7 +41,7 @@ a,
 
 a:hover,
 button:hover {
-  color: #ffccff;
+  color: #c100df;
   animation: 3s ease-in-out infinite linkfade
 }
 
