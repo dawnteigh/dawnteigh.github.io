@@ -132,8 +132,8 @@ button:hover {
 }
 
 .activity {
-  font-size: .9em;
-  letter-spacing: normal;
+  font-size: .8em;
+  word-spacing: normal;
 }
 
 .date {
@@ -268,7 +268,7 @@ button:hover {
   border: 1px solid #ffccff;
   border-radius: 5px;
   box-shadow: 2px 3px 3px 1px rgba(115, 108, 115, 0.5);
-  width: 50vw;
+  width: 60vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -375,6 +375,10 @@ button:hover {
     max-width: 75vw;
   }
 
+  #player {
+    width: 75%;
+  }
+
   #contact {
     width: 60%
   }
@@ -412,6 +416,10 @@ button:hover {
 
   .tech {
     max-width: 50%;
+  }
+
+  #player {
+    width: 90%;
   }
 
   #contact {
