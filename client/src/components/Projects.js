@@ -11,6 +11,8 @@ const Projects = () => {
     toggle: false
   })
 
+  show.toggle ? document.body.style.overflow = "hidden" : document.body.style.overflow = "unset"
+
   const displayProjects = projects.map((p, i) => {
     return (
       <Project project={p} key={i} setShow={setShow} />
