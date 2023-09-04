@@ -101,7 +101,8 @@ button:hover {
 }
 
 .bio-pic {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
   border-radius: 100%;
 }
@@ -221,7 +222,7 @@ button:hover {
 
 .focus {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 50%;
   left: 50%;
