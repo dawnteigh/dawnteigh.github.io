@@ -2,13 +2,17 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #131223;
   color: #ffccff;
   margin: 5% auto;
   text-align: center;
   font-size: 16px;
-  font-family: Georgia, sans-serif
+  font-family: Georgia, sans-serif;
 }
 
 h1 {
@@ -116,14 +120,20 @@ button:hover {
 
 /* Activity Log */
 #activity-log {
-  max-width: 50%;
   display: flex;
+  max-width: 60%;
+  max-height: 50vh;
   flex-direction: column;
   overflow: auto;
+  border: 1px solid #c100df;
+  border-radius: 5px;
+  padding: 1%;
+  margin-bottom: 2%;
 }
 
 .activity {
   font-size: .9em;
+  letter-spacing: normal;
 }
 
 .date {
