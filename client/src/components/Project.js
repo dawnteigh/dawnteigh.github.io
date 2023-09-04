@@ -12,6 +12,7 @@ const Project = ({ project, setShow }) => {
       toggle: true
     })
   }
+  const displayHighlights = highlights.map((h, i) => <li key={i}>{h}</li>)
 
   return (
     <div className='project-tile' onMouseEnter={() => setAnimate(true)} onMouseLeave={() => setAnimate(false)} >
@@ -20,6 +21,9 @@ const Project = ({ project, setShow }) => {
         <img src={animate ? img.gif : img.static} alt={name} className="project-img" />
       </div>
       <p>{parse(desc)}</p>
+      <ul className="highlights">
+        {displayHighlights}
+      </ul>
       <button className='youtube' onClick={handleVideoClick}><i className="fa-brands fa-youtube"></i> Video</button>
       <span className="tech">{stack}</span>
       <a className="github" href={repo} target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i> Repo</a>

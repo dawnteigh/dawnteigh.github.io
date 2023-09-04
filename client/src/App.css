@@ -30,7 +30,7 @@ p {
 .secondary-paragraph {
   word-spacing: normal;
   font-size: .9em;
-  margin: 0 auto 1%;
+  margin: 0 auto;
 }
 
 a,
@@ -143,6 +143,7 @@ button:hover {
   display: flex;
   flex-flow: row wrap;
   align-content: center;
+  margin-top: 1%;
 }
 
 .skill {
@@ -208,9 +209,28 @@ button:hover {
   padding: 0 2%;
 }
 
+.project-tile p::after {
+  content: "";
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+  margin: 1% auto;
+  display: block;
+  opacity: .75;
+}
+
 .project-img {
-  max-height: 350px;
+  max-height: 375px;
   max-width: auto;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.highlights {
+  font-size: .8em;
+  color: white;
+  text-align: left;
+  margin: -2% 1% 2%;
 }
 
 .github {
