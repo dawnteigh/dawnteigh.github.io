@@ -297,7 +297,7 @@ button:hover {
   background-color: #131223;
   cursor: pointer;
   border: none;
-  font-size: 16px;
+  font-size: 1em;
   font-family: Georgia, sans-serif;
 }
 
@@ -338,10 +338,28 @@ button:hover {
 }
 
 /* Screen size rules */
+@media only screen and (max-width: 1156px) {
+  #about {
+    width: 90%;
+  }
+
+  .project-tile {
+    max-width: 60vw;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   body {
     font-size: 14px;
     margin-top: 7%;
+  }
+
+  #about {
+    width: 95%
+  }
+
+  #activity-log {
+    max-width: 65%;
   }
 
   #projects-div {
@@ -352,11 +370,52 @@ button:hover {
   }
 
   .project-tile {
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 350px;
-    position: relative;
+    max-width: 75vw;
+  }
+
+  #contact {
+    width: 60%
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    margin-top: 5%;
+  }
+
+  #about {
+    flex-flow: column wrap;
+    width: 100%;
+  }
+
+  #bio,
+  #extras,
+  #toolbox {
+    width: 90%;
+  }
+
+  .bio-pic {
+    max-width: 200px;
+  }
+
+  #activity-log {
+    max-height: 275px;
+    max-width: 100%;
+  }
+
+  .highlights {
+    margin-left: -2%;
+  }
+
+  .tech {
+    max-width: 50%;
+  }
+
+  #contact {
+    width: 80%;
   }
 }
 
