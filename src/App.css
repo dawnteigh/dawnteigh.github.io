@@ -387,7 +387,7 @@ button:hover {
 @media only screen and (max-width: 480px) {
   body {
     font-size: 12px;
-    margin-top: 5%;
+    margin-top: 7%;
   }
 
   #about {
