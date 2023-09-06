@@ -1,10 +1,11 @@
 import React from 'react'
+import parse from 'html-react-parser'
 
 const Activity = ({ activity }) => {
   return (
     <div className='activity'>
       <span className='date'>{activity.date}</span>
-      <p>{activity.entry}</p>
+      <p>{parse(activity.entry)}</p>
     </div>
   )
 }
