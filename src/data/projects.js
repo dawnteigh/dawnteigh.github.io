@@ -41,7 +41,7 @@ export const projects = [
     desc: "Users can track their disc golf disc collections, scorekeep rounds, and message other users. Discs are given a unique finder key that can be written on the back, allowing lost discs to be returned to their owners through the app.",
     img: { static: tafstatic, gif: tossedandfound },
     highlights: [
-      "Constructed MVC-style application using Ruby on Rails, with React for the views and PostgreSQL as the relationaldatabase management system",
+      "Constructed MVC-style application using Ruby on Rails, with React for the views and PostgreSQL as the relational database management system",
       "Used Active Model Serializers to tailor JSON responses to the needs of the frontend",
       "Deployed the BCrypt Ruby gem as a means to securely hash and store users’ passwords",
       "Included ActionDispatch middleware for sessions and cookies to store user preferences and login status in the browser"
