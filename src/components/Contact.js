@@ -5,7 +5,7 @@ const Contact = () => {
     <div id="contact">
       <h1>It would be my pleasure to speak with you.</h1>
       <p>If you're interested in networking, have a job posting for me to look at, or you just want to talk projects or code in general, reach out to me via email, LinkedIn, or Discord!</p>
-      <div id="icons">
+      <div className="icons">
         <a alt="email" href="mailto:donte279@gmail.com">
           <i className="fa-solid fa-envelope" aria-hidden="true"></i>
           <span className="sr-only">Email</span>
@@ -18,6 +18,9 @@ const Contact = () => {
           <i className="fa-brands fa-discord"></i>
           <span className="sr-only">Discord</span>
         </a>
+      </div>
+      <h2>Other Profiles</h2>
+      <div className="icons">
         <a alt="free-code-camp" target="_blank" rel="noreferrer" href="https://www.freecodecamp.org/dladatto">
           <i className="fa-brands fa-free-code-camp"></i>
           <span className="sr-only">freeCodeCamp</span>
