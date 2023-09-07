@@ -340,6 +340,7 @@ button:hover {
 
 #contact h2 {
   padding: 5% 0 0;
+  margin-bottom: 1%;
 }
 
 #contact h2::after {
