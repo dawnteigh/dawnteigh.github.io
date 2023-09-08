@@ -21,7 +21,7 @@ export const skills = [
   },
   {
     skill: "TypeScript",
-    level: "one"
+    level: "two"
   },
   {
     skill: "jQuery",

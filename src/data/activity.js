@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 7th, 2023",
+    entry: `Wrapped up the <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> TypeScript course today. Finally got to learn about the interfaces I've been seeing when I look at TS code. As I suspected, they are most heavily used in OOP, and are very much the 'type' counterpart of a class. I've got my little certificate that says I took the time to learn TS; now it's time for me to prove that I know TS.`
+  },
+  {
     date: "September 6th, 2023",
     entry: "TypeScript is cool! Learned about nearly all the types and their annotations today (starting on union types tomorrow). On completion of this course, I expect I'll be going through my repos and making sure everything is type-safe, like an expectant parent babyproofing their house."
   },
