@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 8th, 2023",
+    entry: `Slight pivot in plans; decided to make the most of my <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> free trial and started a Java course! So I'm addicted to learning, sue me. But going from TypeScript to another compiled language just made sense! There was a bit of a learning curve at first (I must have forgotten something like 2,147,483,647 semicolons), but by the end of the Object Oriented section I was breezing through. Looking forward to day 2!`
+  },
+  {
     date: "September 7th, 2023",
     entry: `Wrapped up the <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> TypeScript course today. Finally got to learn about the interfaces I've been seeing when I look at TS code. As I suspected, they are most heavily used in OOP, and are very much the 'type' counterpart of a class. I've got my little certificate that says I took the time to learn TS; now it's time for me to prove that I know TS. I might watch a few more videos, then try to convert 'Word of Mouth' to use TypeScript, Redux and all. <br/><br/>Also got to meet and chat with a mobile developer at the coffee shop after they recognized the <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> code editor on my screen. Super nice guy. It's always awesome when you encounter other developers in the wild -- and make new LinkedIn connections!`
   },
