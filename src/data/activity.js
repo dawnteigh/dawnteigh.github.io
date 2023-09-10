@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 9th, 2023",
+    entry: `Nearly finished up Java today. Everything I covered today was at least vaguely familiar to me from my time learning JavaScript and Ruby through Flatiron. Seeing core programing concepts executed through slightly different means only serves to reinforce my understanding of them, even if I don't end up programming in Java a whole bunch. I'll be honest though, defining an Array by wrapping it in curly braces elicited a visceral reaction from me. Off to bed now, where I will continue to type <code>public static void main(String[] args){}</code> in my dreams.`
+  },
+  {
     date: "September 8th, 2023",
     entry: `Slight pivot in plans; decided to make the most of my <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> free trial and started a Java course! So I'm addicted to learning, sue me. But going from TypeScript to another compiled language just made sense! There was a bit of a learning curve at first (I must have forgotten something like 2,147,483,647 semicolons), but by the end of the Object Oriented section I was breezing through. Looking forward to day 2!`
   },

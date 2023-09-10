@@ -31,6 +31,11 @@ p {
   word-spacing: 3px;
 }
 
+code {
+  color: white;
+  font-size: .9em;
+}
+
 .secondary-paragraph {
   word-spacing: normal;
   font-size: .9em;
