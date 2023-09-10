@@ -1,7 +1,7 @@
 export const activity = [
   {
     date: "September 10th, 2023",
-    entry: `Closed out the Java course, with the last section being about 2D array traversal. Row-major order was second nature to me at this point, but column-major order threw me for a bit of a loop... get it? I just need to remember that converting to column-major traversal is as simple as flipping the terminating conditions of the nested loops AND the accessor indices. Two days left in my <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> trial, but I think I'll refrain from trying to cram another language into my brain... for now. Next up: a course on Git and Github.`
+    entry: `Closed out the Java course, with the last section being about 2D array traversal. Row-major order was second nature to me at this point, but I'd never used column-major order before, so it threw me for a bit of a loop... get it? I just need to remember that converting to column-major traversal is as simple as flipping the terminating conditions of the nested loops AND the accessor indices. Two days left in my <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> trial, but I think I'll refrain from trying to cram another language into my brain... for now. Next up: a course on Git and Github.`
   },
   {
     date: "September 9th, 2023",
