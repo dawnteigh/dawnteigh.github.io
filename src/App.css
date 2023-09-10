@@ -34,6 +34,9 @@ p {
 code {
   color: white;
   font-size: .9em;
+  background-color: rgba(193, 0, 223, 0.5);
+  padding: 0 .25em;
+  border-radius: 5px;
 }
 
 .secondary-paragraph {
