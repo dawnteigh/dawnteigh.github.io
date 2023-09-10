@@ -40,6 +40,10 @@ export const skills = [
     level: "three"
   },
   {
+    skill: "Java",
+    level: "two"
+  },
+  {
     skill: "Ruby",
     level: "five"
   },
