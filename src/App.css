@@ -144,6 +144,11 @@ button:hover {
   word-spacing: normal;
 }
 
+.entry-pic {
+  float: right;
+  height: 100px;
+}
+
 .date {
   font-size: .8em;
   color: #dcdada;

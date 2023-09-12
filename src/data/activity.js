@@ -1,7 +1,7 @@
 export const activity = [
   {
     date: "September 12th, 2023",
-    entry: `Free trial got extended 7 days, so I'll be taking a look at Golang. Liking what I see so far, especially how clean and concise importing and aliasing multiple packages looks. I'm going to take it slow with this one so I can also carve out time to code in the other languages I've picked up this week.`
+    entry: `<img src="https://go.dev/images/gophers/ladder.svg" alt="Go Gopher" class="entry-pic" />Free trial got extended 7 days, so I'll be taking a look at Golang. Liking what I see so far, especially how clean and concise importing and aliasing multiple packages looks. I'm going to take it slow with this one so I can also carve out time to code in the other languages I've picked up this week.`
   },
   {
     date: "September 11th, 2023",
