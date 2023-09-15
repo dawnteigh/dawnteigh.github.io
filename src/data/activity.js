@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 14th, 2023",
+    entry: "Had a 1-on-1 networking conversation today, and heard from some Flatiron alumni that now work in the industry as well. I'm always glad to hear others share their experiences. Sometimes they can be eye-opening; other times, reassuring. There's always value to be had in a conversation, be it an array of advice or even just a slice. Sometimes, just staying in the loop is nice. Guess what I learned in Go today?"
+  },
+  {
     date: "September 13th, 2023",
     entry: `Finished the first of <a href='https://github.com/Codecademy/docs'>Codecademy</a>'s courses on Go. The whole time I was thinking things like "Where are the loops?", "What about arrays?", and "How am I almost done with this already?". Well now I know. There's more! Going to dive into Loops, Arrays, Maps, and something called Structs tomorrow. Should be fun. While I was working through the material, I noticed that the code blocks in the lecture portions for some reason had white backgrounds, which matched the background of the container element and rendered some of the text unreadable (selecting barely helped). My first thought was <em>somebody somewhere has goofed</em>, but then I thought to just open the browser's dev tools and change the element's background to black myself. Look at me, I'm a web developer!`
   },
