@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 17th, 2023",
+    entry: "Got my little Swift certificate. Going to cool down on the new language learning for now (I mean it this time, I swear), but I definitely plan to learn SwiftUI and get cracking on an application or two. As for the rest of today, I'm going to update project descriptions and create a sort of 'projects + technologies' to-do list for myself. There's just so much that I want to do and learn; a bit of structure could be just what the doctor ordered to keep me from spreading myself too thin."
+  },
+  {
     date: "September 16th, 2023",
     entry: `Okay, I really like Swift. It has the shortest print method I've seen since <code>puts</code>, which is nice because these lessons are 50% printing stuff to the console. Then you have the added switch statement features, the use of inclusive ranges, and my favorite so far, the oh-so-clean stride function syntax for iteration. I'm gonna let the whole 'let' thing slide. And I guess the function parameters that require extra typing.`
   },
