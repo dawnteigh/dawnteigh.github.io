@@ -1,11 +1,15 @@
 export const activity = [
   {
+    date: "September 16th, 2023",
+    entry: `Okay, I really like Swift. It has the shortest print method I've seen since <code>puts</code>, which is nice because these lessons are 50% printing stuff to the console. Then you have the added switch statement features, the use of inclusive ranges, and my favorite so far, the oh-so-clean stride function syntax for iteration. I'm gonna let the whole 'let' thing slide. And I guess the function parameters that require extra typing.`
+  },
+  {
     date: "September 15th, 2023",
     entry: `Hit the end of the Go course. I like how you can add a struct to the fields of another struct to anonymously access the fields of the first struct through the second struct (I found that lesson to be particularly inSTRUCTive). Was that confusing? How about this then: <em>constant</em> variables in Swift are declared using the <em>let</em> keyword. Hi, JavaScript developer here, WHAT?! Yes, I'm learning how to be a Swiftie (is that the right term?), capitalizing on the ol' <a href='https://github.com/Codecademy/docs'>Codecademy</a> free trial that ends on the 20th. Now I am become dev, the collector of programming languages.`
   },
   {
     date: "September 14th, 2023",
-    entry: "Had a 1-on-1 networking conversation today, and heard from some Flatiron alumni that now work in the industry as well. I'm always glad to hear others share their experiences. Sometimes they can be eye-opening; other times, reassuring. There's always value to be had in a conversation, be it an array of advice or even just a slice. Sometimes, just staying in the loop is nice. Guess what I learned in Go today?"
+    entry: "Had a 1-on-1 networking conversation today, and heard from some Flatiron alumni that now work in the industry as well. I'm always glad to hear others share their experiences. They can be eye-opening, or simply reassuring. There's always value to be had in a conversation, be it an array of advice or even just a slice. Sometimes, just staying in the loop is nice. Guess what I learned in Go today?"
   },
   {
     date: "September 13th, 2023",
