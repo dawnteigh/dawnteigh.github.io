@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/tasks" element={<TaskBoard />} />
+        <Route path="/kanban" element={<TaskBoard />} />
       </Routes>
     </div>
   );

@@ -1,7 +1,7 @@
 export const tasks = [
   {
     desc: "Learn how to use Docker & Kubernetes",
-    status: "backlog"
+    status: "in progress"
   },
   {
     desc: "Learn SwiftUI and develop Swift application",
@@ -9,7 +9,7 @@ export const tasks = [
   },
   {
     desc: "Convert a portfolio project to use TypeScript",
-    status: "backlog"
+    status: "in progress"
   },
   {
     desc: "Participate in a hackathon",
@@ -51,4 +51,12 @@ export const tasks = [
     desc: "Improve UI for Tossed & Found + Word of Mouth",
     status: "backlog"
   },
+  {
+    desc: "Learn and build with PHP and Laravel",
+    status: "backlog"
+  },
+  {
+    desc: "Finish work in Pokédex Master Node.js branch and merge",
+    status: "in progress"
+  }
 ]

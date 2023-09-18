@@ -21,6 +21,14 @@ const Nav = () => {
         Portfolio
       </NavLink>
       <NavLink
+        to="/kanban"
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+      >
+        Kanban
+      </NavLink>
+      <NavLink
         to="/contact"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : ""

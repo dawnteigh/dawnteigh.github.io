@@ -8,8 +8,9 @@ const TaskBoard = () => {
     const filteredTasks = tasks.filter(task => task.status === status)
     return filteredTasks.map((t, i) => <Task key={i} task={t} />)
   }
+
   return (
-    <div className="task-board">
+    <div id="task-board">
       <div className="task-column">
         <h2>Backlog</h2>
         <div className="task-container">
@@ -19,7 +20,7 @@ const TaskBoard = () => {
       <div className="task-column">
         <h2>In Progress</h2>
         <div className="task-container">
-          {displayTasks("inProgress")}
+          {displayTasks("in progress")}
         </div>
       </div>
       <div className="task-column">
