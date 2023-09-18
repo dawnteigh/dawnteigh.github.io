@@ -348,11 +348,11 @@ button:hover {
 
 .task-container {
   display: flex;
-  flex-flow: row wrap;
-  align-content: center;
+  flex-direction: column;
+  justify-content: safe center;
   height: 75vh;
   overflow: auto;
-  border: 2px solid #c100df;
+  border: 1px solid #c100df;
   border-radius: 5px;
 }
 
@@ -361,6 +361,7 @@ button:hover {
   padding: 1%;
   margin: 1% auto;
   width: 95%;
+  height: auto;
   border-radius: 5px;
   font-size: .8em;
   background-color: rgb(193, 0, 223);
@@ -451,6 +452,10 @@ button:hover {
     width: 75%;
   }
 
+  #task-board h2 {
+    font-size: 1.1em;
+  }
+
   #contact {
     width: 60%
   }
@@ -492,6 +497,21 @@ button:hover {
 
   #player {
     width: 90%;
+  }
+
+  #task-board {
+    flex-flow: column wrap;
+  }
+
+  .task-column {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .task-container {
+    max-height: min-content;
+    height: 40vh;
   }
 
   #contact {
