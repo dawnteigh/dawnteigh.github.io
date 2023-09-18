@@ -30,7 +30,8 @@ export const projects = [
     highlights: [
       "Leveraged a Model-View-Controller type of organization to establish a clear separation of concerns between frontend and backend, using the frameworks of ActiveRecord and React in tandem with the DSL Sinatra",
       "Wrote a multitude of custom Ruby methods to manipulate data and serve statistics to the user in real-time",
-      "Combined casino dealing perspective with a Javascript switch statement to render the roll percentages of 2d6, adding utility for craps players"
+      "Combined casino dealing perspective with a JavaScript switch statement to render the roll percentages of 2d6, adding utility for craps players",
+      "Incorporated React Bootstrap components to streamline UI development"
     ],
     stack: "React - Ruby - Sinatra - SQLite",
     repo: "https://github.com/dawnteigh/Dice-Goblin",
@@ -52,7 +53,7 @@ export const projects = [
   },
   {
     name: "Word of Mouth",
-    desc: "Users can find the top-rated restaurants based on a specific dish, and submit food-centric reviews of their own.",
+    desc: "Find out what restaurant does a particular dish best according to user reviews. In addition to the search feature, a user can submit and manage food-centric reviews of their own.",
     img: { static: womstatic, gif: wordofmouth },
     highlights: [
       "Utilized Redux with Thunk middleware for asynchronous state management",
