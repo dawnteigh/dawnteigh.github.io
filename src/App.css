@@ -144,6 +144,9 @@ button:hover {
   word-spacing: normal;
 }
 
+.activity b {
+  color: #c100df;
+}
 
 .entry-pic {
   float: right;

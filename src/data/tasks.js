@@ -29,7 +29,7 @@ export const tasks = [
   },
   {
     desc: "Build an application using Next.js",
-    status: "backlog"
+    status: "in progress"
   },
   {
     desc: "Learn Angular and use it in a project",

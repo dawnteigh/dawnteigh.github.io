@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 19th, 2023",
+    entry: `Went through the <a href="https://nextjs.org/learn/basics/create-nextjs-app" target="_blank">Next.js tutorial</a> today. I really love the way client-side routing is implemented. Picked up a couple of new node packages along the way as well: <b>gray-matter</b> for parsing YAML front matter, and <b>remark</b> to parse Markdown files into renderable HTML (which didn't actually work properly in the tutorial). Ready to start working on a Next.js app of my own.`
+  },
+  {
     date: "September 18th, 2023",
     entry: `PHP is unlike anything I've ever seen! I must learn it... but not now. I'll just add it to my brand new <a href="#/kanban">Kanban</a> board! It's nice to be able to visualize all the things I want to do, simultaneously displaying them for the world to see (so <em>you</em> can hold me accountable!). Task number one is get a job, of course. But I also want to keep learning and improving myself. The board is a great way for me to increase my focus and track my progress.`
   },
@@ -13,7 +17,7 @@ export const activity = [
   },
   {
     date: "September 15th, 2023",
-    entry: `Hit the end of the Go course. I like how you can add a struct to the fields of another struct to anonymously access the fields of the first struct through the second struct (I found that lesson to be particularly inSTRUCTive). Was that confusing? How about this then: <em>constant</em> variables in Swift are declared using the <em>let</em> keyword. Hi, JavaScript developer here, WHAT?! Yes, I'm learning how to be a Swiftie (is that the right term?), capitalizing on the ol' <a href='https://github.com/Codecademy/docs'>Codecademy</a> free trial that ends on the 20th. Now I am become dev, the collector of programming languages.`
+    entry: `Hit the end of the Go course. I like how you can add a struct to the fields of another struct to anonymously access the fields of the first struct through the second struct (I found that lesson to be particularly inSTRUCTive). Was that confusing? How about this then: <em>constant</em> variables in Swift are declared using the <em>let</em> keyword. Hi, JavaScript developer here, WHAT?! Yes, I'm learning how to be a Swiftie (is that the right term?), capitalizing on the ol' <a href='https://www.codecademy.com/learn' target="_blank">Codecademy</a> free trial that ends on the 20th. Now I am become dev, the collector of programming languages.`
   },
   {
     date: "September 14th, 2023",
@@ -21,7 +25,7 @@ export const activity = [
   },
   {
     date: "September 13th, 2023",
-    entry: `Finished the first of <a href='https://github.com/Codecademy/docs'>Codecademy</a>'s courses on Go. The whole time I was thinking things like "Where are the loops?", "What about arrays?", and "How am I almost done with this already?". Well now I know. There's more! Going to dive into Loops, Arrays, Maps, and something called Structs tomorrow. Should be fun. While I was working through the material, I noticed that the code blocks in the lecture portions for some reason had white backgrounds, which matched the background of the container element and rendered some of the text unreadable (selecting barely helped). My first thought was <em>somebody somewhere has goofed</em>, but then I thought to just open the browser's dev tools and change the element's background to black myself. Look at me, I'm a web developer!`
+    entry: `Finished the first of <a href='https://www.codecademy.com/learn' target="_blank">Codecademy</a>'s courses on Go. The whole time I was thinking things like "Where are the loops?", "What about arrays?", and "How am I almost done with this already?". Well now I know. There's more! Going to dive into Loops, Arrays, Maps, and something called Structs tomorrow. Should be fun. While I was working through the material, I noticed that the code blocks in the lecture portions for some reason had white backgrounds, which matched the background of the container element and rendered some of the text unreadable (selecting barely helped). My first thought was <em>somebody somewhere has goofed</em>, but then I thought to just open the browser's dev tools and change the element's background to black myself. Look at me, I'm a web developer!`
   },
   {
     date: "September 12th, 2023",
@@ -29,7 +33,7 @@ export const activity = [
   },
   {
     date: "September 11th, 2023",
-    entry: `Nothing too big to take away from today. I am a little more clear on when to merge and when to rebase with Git, but most everything else was just review. Last part of the course has me making a contribution to the <a href='https://github.com/Codecademy/docs'>Codecademy Docs</a> on Github. I'm going to try to get that done tomorrow, but I also will be attending a couple of virtual events as part of Flatiron's Career Week, as well as an in-person Dallas Software Developers meetup. Should be an exciting, busy day.`
+    entry: `Nothing too big to take away from today. I am a little more clear on when to merge and when to rebase with Git, but most everything else was just review. Last part of the course has me making a contribution to the <a href='https://github.com/Codecademy/docs' target="_blank">Codecademy Docs</a> on Github. I'm going to try to get that done tomorrow, but I also will be attending a couple of virtual events as part of Flatiron's Career Week, as well as an in-person Dallas Software Developers meetup. Should be an exciting, busy day.`
   },
   {
     date: "September 10th, 2023",

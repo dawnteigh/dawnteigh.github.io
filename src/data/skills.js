@@ -36,6 +36,10 @@ export const skills = [
     level: "four"
   },
   {
+    skill: "Next.js",
+    level: "two"
+  },
+  {
     skill: "Node.js",
     level: "three"
   },
