@@ -87,5 +87,4 @@ export const skills = [
     skill: "Git",
     level: "four"
   }
-
 ]

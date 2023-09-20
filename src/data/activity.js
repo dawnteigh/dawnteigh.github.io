@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 20th, 2023",
+    entry: "I'm going to do a Hackathon. Flatiron's Hacktember, to be exact. It's going to run from the 22nd to October 5th, and the build will showcase the use of emerging AI technologies. Taking today and tomorrow to study up a bit."
+  },
+  {
     date: "September 19th, 2023",
     entry: `Went through the <a href="https://nextjs.org/learn/basics/create-nextjs-app" target="_blank">Next.js tutorial</a> today. I really love the way client-side routing is implemented. Picked up a couple of new node packages along the way as well: <b>gray-matter</b> for parsing YAML front matter, and <b>remark</b> to parse Markdown files into renderable HTML (which didn't actually work properly in the tutorial). Ready to start working on a Next.js app of my own.`
   },

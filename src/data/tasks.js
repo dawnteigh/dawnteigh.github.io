@@ -13,7 +13,7 @@ export const tasks = [
   },
   {
     desc: "Participate in a hackathon",
-    status: "backlog"
+    status: "in progress"
   },
   {
     desc: "Learn Spring and develop Java application",
