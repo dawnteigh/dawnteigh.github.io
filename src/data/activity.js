@@ -1,7 +1,7 @@
 export const activity = [
   {
     date: "September 20th, 2023",
-    entry: "I'm going to do a Hackathon. Flatiron's Hacktember, to be exact. It's going to run from the 22nd to October 5th, and the build will showcase the use of emerging AI technologies. Taking today and tomorrow to study up a bit."
+    entry: "I'm going to do a Hackathon. Flatiron's Hacktember, to be exact. It's going to run from the 22nd to October 5th, and the build will feature the use of emerging AI technologies to bolster accessibility for diverse learners on an educational platform. Taking today and tomorrow to study up a bit."
   },
   {
     date: "September 19th, 2023",
