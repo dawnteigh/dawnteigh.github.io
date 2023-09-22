@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 21st 2023",
+    entry: `Went over <a href="https://wcag.com/developers/" target="_blank">Web Content Accessibility Guidelines</a> today in preparation of tomorrow's Hackathon kickoff meeting. Also read up on some AI tool suites like <a href="https://accessibe.com/" target="_blank">Accessibe</a> and <a href="https://userway.org/" target="_blank">Userway</a>. I've got a good enough base to build on top of, but there's a lot of info on project goals and available resources that I won't know until tomorrow. Looking forward to that, and to linking up with my teammates!`
+  },
+  {
     date: "September 20th, 2023",
     entry: "I'm going to do a Hackathon. Flatiron's Hacktember, to be exact. It's going to run from the 22nd to October 5th, and the build will feature the use of emerging AI technologies to bolster accessibility for diverse learners on an educational platform. Taking today and tomorrow to study up a bit."
   },
