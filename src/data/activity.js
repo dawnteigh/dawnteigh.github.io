@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 23rd, 2023",
+    entry: "Started working on a barebones React frontend, just to get a feel for what CSR could look like if nothing else. With the modular nature of React components, I'm sure there will be a few that we can just port over to the actual project repo, if not the whole thing."
+  },
+  {
     date: "September 22nd, 2023",
     entry: `Not too much to report on the Hackathon front; attended Flatiron's kickoff presentation and got assigned to a team. I started a Discord server for us, but it's an asynchronous hackathon so we're still waiting on some people to check in before getting down to brass tacks. Taking another research night!`
   },
