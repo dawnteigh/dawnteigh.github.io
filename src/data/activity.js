@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 24th, 2023",
+    entry: `Learned that React Router NavLinks have an 'end' prop today. I had run into an issue where two NavLinks had similar enough paths (/courses and /courses/new) that they would both appear active when only one of them was. Adding the 'end' prop to the Courses NavLink changed the matching logic so that only the end of the end of the path would be matched, and only the correct button received the "active" class. Kind of a slow day.`
+  },
+  {
     date: "September 23rd, 2023",
     entry: "Started working on a barebones React frontend, just to get a feel for what CSR could look like if nothing else. With the modular nature of React components, I'm sure there will be a few that we can just port over to the actual project repo, if not the whole thing."
   },
