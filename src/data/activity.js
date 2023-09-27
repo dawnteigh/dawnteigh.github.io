@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 26th, 2023",
+    entry: `Looked into ChatGPT Ruby gems today, and shockingly didn't find all that much. Here's <a href="https://github.com/nagstler/chatgpt-ruby" target="_blank">one</a> that's kind of current, but I think I might like to try my hand at making one myself once this Hackathon is in the rear-view.`
+  },
+  {
     date: "September 25th, 2023",
     entry: `Decided on <a href="https://userway.org/widget/" target="_blank">UserWay's accessibility widget</a> to cover the AI-driven accessibility criteria for my team's application. It almost feels like cheating though, with how complete and simple to integrate it is. Going to run it by Flatiron personnel tomorrow, but if all is good we'll be able to focus on collaborating and doing all the things we know how to do. Can't wait to write code for a mockup from actual designers!`
   },
