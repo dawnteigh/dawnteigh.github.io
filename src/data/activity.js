@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "September 28th, 2023",
+    entry: `Found a better <a href="https://github.com/alexrudall/ruby-openai" target="_blank">gem</a>. Looking forward to implementing it during this hackathon! Today I finished up the groundwork for our frontend, complete with a Redux store and slices. Just waiting on the design and some backend stuff to get done. I'm so used to doing everything, so this waiting is killing me! Guess I'll think on some more accessibility features. There's always something to do.`
+  },
+  {
     date: "September 26th, 2023",
     entry: `Looked into ChatGPT Ruby gems today, and shockingly didn't find all that much. Here's <a href="https://github.com/nagstler/chatgpt-ruby" target="_blank">one</a> that's kind of current, but I think I might like to try my hand at making one myself once this Hackathon is in the rear-view.`
   },
