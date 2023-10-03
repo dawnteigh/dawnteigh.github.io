@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 2nd, 2023",
+    entry: "I'm still here! Just busy with the Hackathon. Wrote all of the Redux logic, connected it to our backend, and handled errors and loading state all of yesterday and today. Also took it upon myself to do some light styling and a logo, as our design team may no longer be participating. But hey, life happens. I will gladly make the site purple. 😈"
+  },
+  {
     date: "September 29th, 2023",
     entry: "Getting used to the Git workflow of working in branches, creating pull requests, reviewing and merging. Codebase is coming together quickly now! Also decided it best to integrate OpenAI API functionality in the frontend, through React."
   },
