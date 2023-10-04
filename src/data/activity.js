@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "October 4th, 2023",
+    entry: `After more research yesterday, I came to realize that making calls with our API key in the frontend wasn't the safest idea. Duh. I went back to the <a href="https://github.com/alexrudall/ruby-openai" target="_blank">ruby-openai gem</a>, scoured the internet for what scarce resources I could find to help me implement my exact vision (there was nothing close), and finally stumbled my way into producing a pretty solid solution. Then I stayed up all night and into the morning making small frontend changes and recording a million demo video takes. Looking forward to seeing what all the other teams came up with tomorrow. As for right now, I could go for a full REST.`
+  },
+  {
     date: "October 2nd, 2023",
-    entry: "I'm still here! Just busy with the Hackathon. Wrote all of the Redux logic, connected it to our backend, and handled errors and loading state all of yesterday and today. Also took it upon myself to do some light styling and a logo, as our design team may no longer be participating. But hey, life happens. I will gladly make the site purple. 😈"
+    entry: "I'm still here! Just busy with the Hackathon. Wrote all of the Redux logic, connected it to our backend, and handled errors and loading state all of yesterday and today. Also took it upon myself to do some light styling and a logo, just in case we can't get the full on design in time. I will gladly make the site purple. 😈"
   },
   {
     date: "September 29th, 2023",
