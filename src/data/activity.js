@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "October 6th, 2023",
+    entry: `Added <a href="https://github.com/Limeload/EqualEd" target="_blank">EqualEd</a> to the portfolio page! Also spruced up the place with an svg background image created with <a href="https://app.haikei.app/" target="_blank">Haikei</a>. Pretty neat tool, might go back to that well when I finally sit down to improve the looks of Tossed and Found & Word of Mouth.`
+  },
+  {
     date: "October 5th, 2023",
-    entry: "Final Hackathoughts: All in all, I enjoyed the experience. I was the project manager for my first hackathon, and we ended up being one of the handful of teams to produce a demo of a working application (every team did have a wonderful presentation though, I definitely took some notes). I learned a lot, and got to brainstorm with and operate alongside some talented developers and designers. The differing, busy schedules got in the way a bit, but I'm proud of what we were able to offer up at the deadline. Plus, nothing is stopping us from continuing to build it into something greater, and I'm hopeful we will. I'm absolutely interested in finding another hackathon to join; I feel that with what I know now I could get off to an even faster start. Or, you know, I could land a job. Might try that. Presentation version of the project goes in the portfolio tomorrow."
+    entry: "Final Hackathoughts: All in all, I enjoyed the experience. I was the project manager for my first hackathon, and we ended up being one of the few teams to produce a demo of a working application (every team did have a wonderful presentation though, I definitely took some notes). I learned a lot, and got to brainstorm with and operate alongside some talented developers and designers. The differing, busy schedules got in the way a bit, but I'm proud of what we were able to offer up at the deadline. Plus, nothing is stopping us from continuing to build it into something greater, and I'm hopeful we will. I'm absolutely interested in finding another hackathon to join; I feel that with what I know now I could get off to an even faster start. Or, you know, I could land a job. Might try that. Presentation version of the project goes in the portfolio tomorrow."
   },
   {
     date: "October 4th, 2023",
