@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 5th, 2023",
+    entry: "Final Hackathoughts: All in all, I enjoyed the experience. I was the project manager for my first hackathon, and we ended up being one of the handful of teams to produce a demo of a working application (every team did have a wonderful presentation though, I definitely took some notes). I learned a lot, and got to brainstorm with and operate alongside some talented developers and designers. The differing, busy schedules got in the way a bit, but I'm proud of what we were able to offer up at the deadline. Plus, nothing is stopping us from continuing to build it into something greater, and I'm hopeful we will. I'm absolutely interested in finding another hackathon to join; I feel that with what I know now I could get off to an even faster start. Or, you know, I could land a job. Might try that. Presentation version of the project goes in the portfolio tomorrow."
+  },
+  {
     date: "October 4th, 2023",
     entry: `After more research yesterday, I came to realize that making calls with our API key in the frontend wasn't the safest idea. Duh. I went back to the <a href="https://github.com/alexrudall/ruby-openai" target="_blank">ruby-openai gem</a>, scoured the internet for what scarce resources I could find to help me implement my exact vision (there was nothing close), and finally stumbled my way into producing a pretty solid solution. Then I stayed up all night and into the morning making small frontend changes and recording a million demo video takes. Looking forward to seeing what all the other teams came up with tomorrow. As for right now, I could go for a full REST.`
   },
