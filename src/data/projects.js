@@ -6,6 +6,8 @@ import tossedandfound from "../assets/tossed-and-found.gif"
 import tafstatic from "../assets/tafstatic.png"
 import wordofmouth from "../assets/word-of-mouth.gif"
 import womstatic from "../assets/womstatic.png"
+import equaledstatic from "../assets/equaledstatic.png"
+import equaled from "../assets/equaled.gif"
 
 export const projects = [
   {
@@ -63,5 +65,18 @@ export const projects = [
     stack: "React - Redux - Ruby on Rails - PostgreSQL",
     repo: "https://github.com/dawnteigh/word-of-mouth",
     videoId: "1c1RF5p3fbM"
+  },
+  {
+    name: "Hackathon: EqualEd",
+    desc: `Educational platform that utilizes ChatGPT 3.5 to summarize and/or translate course content to be more accessible to users with varied learning requirements.`,
+    img: { static: equaledstatic, gif: equaled },
+    highlights: [
+      "In a project manager role, collaborated with UI/UX designers, cybersecurity engineers, and full-stack developers to meet a deadline",
+      "Utilized the openai-ruby gem and engineered prompts to get summaries and translations from ChatGPT",
+      "Used Redux Toolkit to handle data in the frontend and manage loading state while ChatGPT generates responses"
+    ],
+    stack: "React - Redux - Ruby on Rails - PostgreSQL",
+    repo: "https://github.com/Limeload/EqualEd",
+    videoId: "8IbONlBJId0"
   },
 ]
