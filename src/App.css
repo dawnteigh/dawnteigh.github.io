@@ -4,10 +4,18 @@
 
 html {
   height: 100%;
+  aspect-ratio: 900/300;
+  width: 100%;
+  background-color: #131223;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-image: url("./assets/amethyst-rift.svg");
 }
 
+
 body {
-  background-color: #131223;
   color: #ffccff;
   margin: 5% auto;
   text-align: center;
@@ -37,6 +45,16 @@ code {
   background-color: rgba(193, 0, 223, 0.5);
   padding: 0 .25em;
   border-radius: 5px;
+}
+
+.rift {
+  aspect-ratio: 900/450;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-image: url("./assets/amethyst-rift.svg");
 }
 
 .secondary-paragraph {
@@ -128,12 +146,13 @@ button:hover {
 
 /* Activity Log */
 #activity-log {
+  background-color: #131223;
   display: flex;
   max-width: 60%;
   max-height: 50vh;
   flex-direction: column;
   overflow: auto;
-  border: 1px solid #c100df;
+  border: 1px solid #ffccff;
   border-radius: 5px;
   padding: 1%;
   margin-bottom: 2%;
@@ -351,11 +370,12 @@ button:hover {
 
 .task-container {
   display: flex;
+  background-color: #131223;
   flex-direction: column;
   justify-content: safe center;
   height: 75vh;
   overflow: auto;
-  border: 1px solid #c100df;
+  border: 1px solid #ffccff;
   border-radius: 5px;
 }
 
@@ -465,6 +485,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 480px) {
+  html {
+    background-size: cover;
+  }
+
   body {
     font-size: 12px;
     margin-top: 7%;
