@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.30065703.css",
-    "main.js": "/static/js/main.8690b0f8.js",
+    "main.css": "/static/css/main.92db6a1d.css",
+    "main.js": "/static/js/main.c897dfbc.js",
     "static/js/787.0d2acc7f.chunk.js": "/static/js/787.0d2acc7f.chunk.js",
     "static/media/word-of-mouth.gif": "/static/media/word-of-mouth.374ea1bb100f3bb7b44c.gif",
     "static/media/womstatic.png": "/static/media/womstatic.83967a1d0660e25184b4.png",
@@ -14,13 +14,14 @@
     "static/media/pmstatic.png": "/static/media/pmstatic.e15f076fa3c3337a6672.png",
     "static/media/fullstackdev.jpeg": "/static/media/fullstackdev.27d901fdcc48f2428719.jpeg",
     "static/media/pokedex-master.gif": "/static/media/pokedex-master.009bbc15309890f25bc5.gif",
+    "static/media/amethyst-rift.svg": "/static/media/amethyst-rift.f2d52d3bb78397ec36c4.svg",
     "index.html": "/index.html",
-    "main.30065703.css.map": "/static/css/main.30065703.css.map",
-    "main.8690b0f8.js.map": "/static/js/main.8690b0f8.js.map",
+    "main.92db6a1d.css.map": "/static/css/main.92db6a1d.css.map",
+    "main.c897dfbc.js.map": "/static/js/main.c897dfbc.js.map",
     "787.0d2acc7f.chunk.js.map": "/static/js/787.0d2acc7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30065703.css",
-    "static/js/main.8690b0f8.js"
+    "static/css/main.92db6a1d.css",
+    "static/js/main.c897dfbc.js"
   ]
 }
