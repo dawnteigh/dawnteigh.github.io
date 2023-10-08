@@ -86,5 +86,9 @@ export const skills = [
   {
     skill: "Git",
     level: "four"
+  },
+  {
+    skill: "Docker",
+    level: "two"
   }
 ]
