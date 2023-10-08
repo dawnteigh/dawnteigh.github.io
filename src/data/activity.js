@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 7th, 2023",
+    entry: `Learned the basics of Docker today. Not sure yet if I prefer using the CLI or Docker Desktop. Going to try and tackle Kubernetes between football games tomorrow. Also going to begin migrating all of the projects I created using create-react-app to Next.js or Vite. Better that than constantly having to find workarounds for the dependencies of a defunct project.`
+  },
+  {
     date: "October 6th, 2023",
     entry: `Added <a href="https://github.com/Limeload/EqualEd" target="_blank">EqualEd</a> to the portfolio page! Also spruced up the place with an svg background image created with <a href="https://app.haikei.app/" target="_blank">Haikei</a>. Pretty neat tool, might go back to that well when I finally sit down to improve the looks of Tossed and Found & Word of Mouth.`
   },
