@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 9th, 2023",
+    entry: `Started a Next.js tutorial project from <a href="https://vercel.com/guides/nextjs-prisma-postgres">Vercel</a>, but quickly got tired of the issues with outdated dependencies and having to fix errors in the code snippets they would give me to use. Gained a little bit of experience with Prisma; creating dummy data with Prisma Studio was an interesting little diversion. Ultimately, the end goal of a simple blog app wasn't captivating enough for me to want to expend extra effort to wrestle through what seemed to be an out-of-date or otherwise largely untested tutorial. Still, I feel like I gained something out of it as I continue to narrow my focus to JS-centric technologies. Speaking of Javascript, I'll be attending a Dallas Software Developers meetup tomorrow that features presentations on JS components and testing.`
+  },
+  {
     date: "October 8th, 2023",
     entry: `Learned enough about Kubernetes to know that it's not something I need to worry about messing with at this point in time. Container orchestration is just a <em>little</em> bit out of scope for an aspiring entry level developer, I think. I'll gladly learn it if the need arises, but there's no use spreading myself too thin right now. On a related note: I believe Docker missed an opportunity when they didn't call their own tool OrcaStrate. Y'know, because of the whole whale aesthetic.`
   },
