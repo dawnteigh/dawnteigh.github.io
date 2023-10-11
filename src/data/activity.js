@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "October 10th, 2023",
+    entry: "Did some research on session-based authentication in Node.js and data relationships in Mongoose. Planning to add a User model to Pokédex Master and then deploy it."
+  },
+  {
     date: "October 9th, 2023",
-    entry: `Started a Next.js tutorial project from <a href="https://vercel.com/guides/nextjs-prisma-postgres">Vercel</a>, but quickly got tired of the issues with outdated dependencies and having to fix errors in the code snippets they would give me to use. Gained a little bit of experience with Prisma; creating dummy data with Prisma Studio was an interesting little diversion. Ultimately, the end goal of a simple blog app wasn't captivating enough for me to want to expend extra effort to wrestle through what seemed to be an out-of-date or otherwise largely untested tutorial. Still, I feel like I gained something out of it as I continue to narrow my focus to JS-centric technologies. Speaking of Javascript, I'll be attending a Dallas Software Developers meetup tomorrow that features presentations on JS components and testing.`
+    entry: `Started a Next.js tutorial project from <a href="https://vercel.com/guides/nextjs-prisma-postgres">Vercel</a>, but quickly got tired of the issues with outdated dependencies and having to fix errors in the code snippets they would give me to use. Gained a little bit of experience with Prisma; creating dummy data with Prisma Studio was an interesting little diversion. Ultimately, the end goal of a simple blog app wasn't captivating enough for me to want to expend extra effort to wrestle through what seemed to be an out-of-date or otherwise largely untested tutorial. Still learned a few things though.`
   },
   {
     date: "October 8th, 2023",
