@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 11th, 2023",
+    entry: `Updated the ol' resume today, and sent off my first application in a while. Put some real time into it, trying the quality over quantity thing. I also successfully integrated <a href="https://www.npmjs.com/package/express-session" target="_blank">express-session</a> and <a href="https://www.npmjs.com/package/connect-mongodb-session" target="_blank">connect-mongodb-session</a> into Pokédex Master, along with login and signup routes. Now I just need to get my schemas sorted and do some quick frontend work and I'll be ready to merge the Node.js branch to main and work on a deploy.`
+  },
+  {
     date: "October 10th, 2023",
     entry: "Did some research on session-based authentication in Node.js and data relationships in Mongoose. Planning to add a User model to Pokédex Master and then deploy it."
   },
