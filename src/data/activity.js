@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 13th, 2023",
+    entry: "Learned a lot more about Mongoose today, including how to create virtuals (properties not persisted to the database) and include them in the JSON-ified response to a query. Very similar to how I would use custom methods in Active Model Serializers when using Rails. All of the backend routes that I need for now are working as desired, but no doubt I'll be revisiting my code in the near future when I'm stronger with MongoDB & Mongoose."
+  },
+  {
     date: "October 12th, 2023",
     entry: `Finally used the Postman VS Code <a href="https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode" target="_blank">extension</a> today. I've had it installed for weeks, but I was still using the desktop app. Opening a new tab in my editor is marginally more convenient than switching to another window, but a small upgrade is still an upgrade. Plus I don't have to look at the gnarly orange of Postman's typical UI (says the guy with a similarly orange project in his portfolio). Got my user session object looking the way I want it to, just have to figure out how I want to handle the user's Pokédex. Once that part is squared away, the frontend logic and components will be a cakewalk.`
   },
