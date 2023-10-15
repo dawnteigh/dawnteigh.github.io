@@ -58,5 +58,9 @@ export const tasks = [
   {
     desc: "Finish work in Pokédex Master Node.js branch and merge",
     status: "in progress"
+  },
+  {
+    desc: "Implement React Portals in a project, for modals or dropdowns",
+    status: "backlog"
   }
 ]
