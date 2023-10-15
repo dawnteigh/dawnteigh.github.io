@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 14th, 2023",
+    entry: "Successfully made it so that a user has 3 save files. Now I just need to figure out how to store the current save file in the session so that the user doesn't have to choose again on page reload. Got everything else working smoothly, including error handling. The plan is to add some more passable styling, an updated README, and take care of the save-file-in-session thing before merging tomorrow. Then I'll think about adding more features!"
+  },
+  {
     date: "October 13th, 2023",
     entry: "Learned a lot more about Mongoose today, including how to create virtuals (properties not persisted to the database) and include them in the JSON-ified response to a query. Very similar to how I would use custom methods in Active Model Serializers when using Rails. All of the backend routes that I need for now are working as desired, but no doubt I'll be revisiting my code in the near future when I'm stronger with MongoDB & Mongoose."
   },
