@@ -57,10 +57,14 @@ export const tasks = [
   },
   {
     desc: "Finish work in Pokédex Master Node.js branch and merge",
-    status: "in progress"
+    status: "complete"
   },
   {
     desc: "Implement React Portals in a project, for modals or dropdowns",
     status: "backlog"
+  },
+  {
+    desc: "Polished, responsive design for Pokédex Master",
+    status: "in progress"
   }
 ]
