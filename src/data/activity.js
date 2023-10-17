@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 16th, 2023",
+    entry: "Read the docs on React's useMemo and useCallback hooks. Went in looking for a solution to my ES lint warnings regarding useEffect dependencies, came out with a bigger picture understanding of optimizing performance between component renders. Learning and becoming more resourceful all the time. Got all of Pokédex Master to be responsive. Tomorrow I get fancy with the save file styling."
+  },
+  {
     date: "October 15th, 2023",
     entry: "Finished up in the Node.js branch of Pokédex Master! I love the way my GitHub contributions map lights up after a good merge. Next up, a fresh, responsive UI. Then deployment! I also really want to build something from scratch. And maybe I should reach out in the EqualEd Discord to see if anyone wants to start working on that... it's shaping up to be a busy Monday!"
   },
