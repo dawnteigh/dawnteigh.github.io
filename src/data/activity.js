@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 17th, 2023",
+    entry: "Did some LinkedIn skill assessments today. Does anybody put any stock into those? The Ruby on Rails one had a bunch of questions relating to views (which I've never used Rails for), but I was still able to intuit my way to a badge. I usually love collecting accolades, but the few of these I completed before growing bored weren't very fulfilling. I don't feel like I proved anything. SHRUG. Continued working on Pokédex Master, creating another backend route to update the save files in the session when the user wants to switch saves. This was to ensure that the most recent progress was displayed on the save file selection page, because that info is rendered from the user object in the session. I also created a spinning Master Ball loader component, but I'm still not sure how I want to manage loading state. I read up on React Suspense today, so I might just migrate the app from CRA to Next.js and go that route."
+  },
+  {
     date: "October 16th, 2023",
     entry: "Read the docs on React's useMemo and useCallback hooks. Went in looking for a solution to my ES lint warnings regarding useEffect dependencies, came out with a bigger picture understanding of optimizing performance between component renders. Learning and becoming more resourceful all the time. Got all of Pokédex Master to be responsive. Tomorrow I get fancy with the save file styling."
   },
