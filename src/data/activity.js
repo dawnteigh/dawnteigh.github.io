@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 19th, 2023",
+    entry: "Worked on some more dynamic styling for Pokédex Master yesterday, making the background color of a save file match the type of the last caught Pokémon. Today I made a sliding toggle switch for changing the game's difficulty, replacing the invisible checkboxes I was using before. It's a small thing, but I think it looks pretty neat! I used my Master Ball graphic as the slider, and actually used the CSS transition property for the first time (what have I been doing with my life) for a silky smooth toggle motion. Between this switch and the progress bar I built yesterday, my library of reusable, highly customizable React components is growing rapidly. No longer do I reach for Bootstrap or Semantic UI when I need something; now I just make it myself."
+  },
+  {
     date: "October 17th, 2023",
     entry: "Did some LinkedIn skill assessments today. Does anybody put any stock into those? The Ruby on Rails one had a bunch of questions relating to views (which I've never used Rails for), but I was still able to intuit my way to a badge. I usually love collecting accolades, but the few of these I completed before growing bored weren't very fulfilling. I don't feel like I proved anything. SHRUG. Continued working on Pokédex Master, creating another backend route to update the save files in the session when the user wants to switch saves. This was to ensure that the most recent progress was displayed on the save file selection page, because that info is rendered from the user object in the session. I also created a spinning Master Ball loader component, but I'm still not sure how I want to manage loading state. I read up on React Suspense today, so I might just migrate the app from CRA to Next.js and go that route."
   },
