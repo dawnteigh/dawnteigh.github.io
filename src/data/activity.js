@@ -1,5 +1,10 @@
 export const activity = [
   {
+    date: "October 20th, 2023",
+    entry: `Currently playing around with shifting elements off the page and smoothly sliding the remaining elements into the vacated space with the CSS transition-transform combo. I want the user to be able to banish the Pokédex Master instructions paragraph (which takes up a good chunk of space) and bring it back with the click of a button. That on its own is a piece of cake, but I also want it to look <em>good</em>. Tried a couple of different ways so far, but haven't found one I'm truly satisfied with yet. I'm spending more time on this app than I originally thought I would, but I think that this will be something that people can really enjoy, so I want to engineer the best user experience possible. <br/>
+    Tweaked the resume a bit more today as well, and gained some insights that I feel will significantly impact my job seeking strategy for the better. Stoked. 😤`
+  },
+  {
     date: "October 19th, 2023",
     entry: "Worked on some more dynamic styling for Pokédex Master yesterday, making the background color of a save file match the type of the last caught Pokémon. Today I made a sliding toggle switch for changing the game's difficulty, replacing the invisible checkboxes I was using before. It's a small thing, but I think it looks pretty neat! I used my Master Ball graphic as the slider, and actually used the CSS transition property for the first time (what have I been doing with my life) for a silky smooth toggle motion. Between this switch and the progress bar I built yesterday, my library of reusable, highly customizable React components is growing rapidly. No longer do I reach for Bootstrap or Semantic UI when I need something; now I just make it myself."
   },
