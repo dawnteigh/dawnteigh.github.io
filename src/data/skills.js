@@ -1,15 +1,15 @@
 export const skills = [
   {
     skill: "HTML",
-    level: "five"
+    level: "three"
   },
   {
     skill: "CSS",
-    level: "five"
+    level: "three"
   },
   {
     skill: "Sass",
-    level: "two"
+    level: "one"
   },
   {
     skill: "Tailwind",
@@ -17,78 +17,78 @@ export const skills = [
   },
   {
     skill: "JavaScript",
-    level: "five"
+    level: "three"
   },
   {
     skill: "TypeScript",
-    level: "two"
+    level: "one"
   },
   {
     skill: "jQuery",
-    level: "two"
+    level: "one"
   },
   {
     skill: "React",
-    level: "five"
+    level: "three"
   },
   {
     skill: "Redux",
-    level: "four"
+    level: "three"
   },
   {
     skill: "Next.js",
-    level: "two"
+    level: "one"
   },
   {
     skill: "Node.js",
-    level: "three"
+    level: "two"
   },
   {
     skill: "Java",
-    level: "two"
+    level: "one"
   },
   {
     skill: "Ruby",
-    level: "five"
+    level: "three"
   },
   {
     skill: "Rails",
-    level: "four"
+    level: "three"
   },
   {
     skill: "Python",
-    level: "three"
+    level: "one"
   },
   {
     skill: "Go",
-    level: "two"
+    level: "one"
   },
   {
     skill: "Swift",
-    level: "two"
+    level: "one"
   },
   {
     skill: "SQL",
-    level: "five"
-  },
-  {
-    skill: "PostgreSQL",
-    level: "five"
-  },
-  {
-    skill: "MongoDB",
     level: "three"
   },
   {
-    skill: "Jest",
+    skill: "PostgreSQL",
+    level: "three"
+  },
+  {
+    skill: "MongoDB",
     level: "two"
+  },
+  {
+    skill: "Jest",
+    level: "one"
   },
   {
     skill: "Git",
-    level: "four"
+    level: "three"
   },
   {
     skill: "Docker",
-    level: "two"
+    level: "one"
   }
 ]

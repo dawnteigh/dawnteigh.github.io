@@ -12,9 +12,11 @@ const Toolbox = () => {
   return (
     <div id="toolbox">
       <h2>Toolbox</h2>
-      <p className="secondary-paragraph">
-        Hard skills that I feel are worth mentioning. You can find more on my <a alt="linkedin-skills" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/donteladatto/details/skills/">LinkedIn</a>.
-      </p>
+      <div className="legend">
+        <span><div className="key one"></div> Hands-On Experience </span>
+        <span><div className="key two"></div> Portfolio Project </span>
+        <span><div className="key three"></div> 2+ Projects </span>
+      </div>
       <div id='skill-container' >
         {displaySkills}
       </div>
