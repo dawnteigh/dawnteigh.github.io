@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 21st, 2023",
+    entry: `Watched a bunch of videos today, learning more about Sass and PostCSS and discovering the clamp property and container queries, among other things. Pretty low-code day otherwise, just toying with a few new ideas on Pokédex Master and on this site. I expect at least one big change will go live tomorrow.`
+  },
+  {
     date: "October 20th, 2023",
     entry: `Currently playing around with shifting elements off the page and smoothly sliding the remaining elements into the vacated space with the CSS transition-transform combo. I want the user to be able to banish the Pokédex Master instructions paragraph (which takes up a good chunk of space) and bring it back with the click of a button. That on its own is a piece of cake, but I also want it to look <em>good</em>. Tried a couple of different ways so far, but haven't found one I'm truly satisfied with yet. I'm spending more time on this app than I originally thought I would, but I think that this will be something that people can really enjoy, so I want to engineer the best user experience possible. <br/>
     Tweaked the resume a bit more today as well, and gained some insights that I feel will significantly impact my job seeking strategy for the better. Stoked. 😤`
