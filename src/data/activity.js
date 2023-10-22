@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 22nd, 2023",
+    entry: "I made some slight changes to the Toolbox section today. I worry that the colors might be too similar for everybody to differentiate between, but I'll keep it for now while I seek second opinions. Originally I thought I would animate the skill tags to continuously scroll through, but I didn't like the look in this particular case. Still, I gained valuable experience from building the feature out, even if I ultimately decided against including it. Just another thing to file away for later."
+  },
+  {
     date: "October 21st, 2023",
     entry: `Watched a bunch of videos today, learning more about Sass and PostCSS and discovering the clamp property and container queries, among other things. Pretty low-code day otherwise, just toying with a few new ideas on Pokédex Master and on this site. I expect at least one big change will go live tomorrow.`
   },
