@@ -1,7 +1,7 @@
 export const activity = [
   {
     date: "October 22nd, 2023",
-    entry: "I made some slight changes to the Toolbox section today. I worry that the colors might be too similar for everybody to differentiate between, but I'll keep it for now while I seek second opinions. Originally I thought I would animate the skill tags to continuously scroll through, but I didn't like the look in this particular case. Still, I gained valuable experience from building the feature out, even if I ultimately decided against including it. Just another thing to file away for later."
+    entry: "I made some slight changes to the Toolbox section today. I worry that the colors might be too similar for everybody to differentiate between, but I'll keep it for now while I seek second opinions. Originally I thought I would animate the skill tags to continuously scroll through, but I didn't like the look in this particular case. Still, I gained valuable experience from building the feature out, even if I ultimately decided against including it. Just another thing to file away for later. Tonight, I will start migrating Pokédex Master to Next.js. I couldn't find a comprehensive guide, so I'm just going to reference the docs to figure out file structure and routing. Who knows, maybe I write my own walkthrough."
   },
   {
     date: "October 21st, 2023",
