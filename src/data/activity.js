@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 23rd, 2023",
+    entry: `My free PostgreSQL instance on <a href="https://render.com/" target="_blank">Render</a> expired yesterday, so I spent ten minutes this morning creating a new one for my two Render-deployed projects to connect to. It seemed like such a daunting prospect the first time I had to do it, I can't help but laugh at how easy it actually is. Speaking of deploys, why haven't I linked mine on this site yet? Those free Render instances take a while to spin up, and I don't want that to reflect poorly on the performance of my apps... but I <em>guess</em> I still link to them in other places... Eh, why not, I'm on it. Revisited Word of Mouth today for some small CSS tweaks, but I feel like it could use a complete overhaul. Sounds like a nice opportunity to practice Tailwind or Sass!`
+  },
+  {
     date: "October 22nd, 2023",
     entry: "I made some slight changes to the Toolbox section today. I worry that the colors might be too similar for everybody to differentiate between, but I'll keep it for now while I seek second opinions. Originally I thought I would animate the skill tags to continuously scroll through, but I didn't like the look in this particular case. Still, I gained valuable experience from building the feature out, even if I ultimately decided against including it. Just another thing to file away for later. Tonight, I will start migrating Pokédex Master to Next.js. I couldn't find a comprehensive guide, so I'm just going to reference the docs to figure out file structure and routing. Who knows, maybe I write my own walkthrough."
   },
