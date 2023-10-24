@@ -23,7 +23,8 @@ export const projects = [
     ],
     stack: "React - Node.js - Express - Mongoose - MongoDB",
     repo: "https://github.com/dawnteigh/Pokedex-Master",
-    videoId: "H_qdlnG3dpU"
+    videoId: "H_qdlnG3dpU",
+    deploy: false
   },
   {
     name: "Dice Goblin",
@@ -37,7 +38,8 @@ export const projects = [
     ],
     stack: "React - Ruby - Sinatra - SQLite",
     repo: "https://github.com/dawnteigh/Dice-Goblin",
-    videoId: "pMznK35uu4A"
+    videoId: "pMznK35uu4A",
+    deploy: false
   },
   {
     name: "Tossed and Found",
@@ -51,7 +53,8 @@ export const projects = [
     ],
     stack: "React - Ruby on Rails - PostgreSQL",
     repo: "https://github.com/dawnteigh/Tossed-and-Found",
-    videoId: "K-DG0ddg90s"
+    videoId: "K-DG0ddg90s",
+    deploy: "https://tossed-and-found.onrender.com"
   },
   {
     name: "Word of Mouth",
@@ -64,7 +67,8 @@ export const projects = [
     ],
     stack: "React - Redux - Ruby on Rails - PostgreSQL",
     repo: "https://github.com/dawnteigh/word-of-mouth",
-    videoId: "1c1RF5p3fbM"
+    videoId: "1c1RF5p3fbM",
+    deploy: "https://word-of-mouth.onrender.com"
   },
   {
     name: "Hackathon: EqualEd",
@@ -77,6 +81,7 @@ export const projects = [
     ],
     stack: "React - Redux - Ruby on Rails - PostgreSQL",
     repo: "https://github.com/Limeload/EqualEd",
-    videoId: "8IbONlBJId0"
+    videoId: "8IbONlBJId0",
+    deploy: false
   },
 ]

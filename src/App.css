@@ -287,6 +287,18 @@ button:hover {
   opacity: .75;
 }
 
+.project-header {
+  position: relative;
+}
+
+.project-header a {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2%;
+  font-size: 1rem;
+}
+
 .project-img {
   max-height: 375px;
   max-width: auto;
