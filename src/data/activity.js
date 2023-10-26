@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 25th, 2023",
+    entry: `Registered for another Flatiron Career Week today, and updated my <a href="https://huntr.co/p/donte-ladatto">Huntr profile</a>. What's with all that empty white space in the header? I wanna fix it. I'm constantly zeroing in on things like that in UIs now, and it's crazy just how many sites have faulty or even completely unusable forms. Hey Liberty Mutual, your sticky navigation bar is a bit jarring on scroll up in Chrome... let me help you with that! 😜<br /> One of my own UIs received a welcome improvement today (and yesterday), as I finally got the 'Play' page of Pokédex Master to look semi-decent. I made a toolbar component to contain the toggles for difficulty and hints, and smoothly animated each change with Javascript and CSS transitions. I grow stronger by the day!`
+  },
+  {
     date: "October 23rd, 2023",
     entry: `My free PostgreSQL instance on <a href="https://render.com/" target="_blank">Render</a> expired yesterday, so I spent ten minutes this morning creating a new one for my two Render-deployed projects to connect to. It seemed like such a daunting prospect the first time I had to do it, I can't help but laugh at how easy it actually is. Speaking of deploys, why haven't I linked mine on this site yet? Those free Render instances take a while to spin up, and I don't want that to reflect poorly on the performance of my apps... but I <em>guess</em> I still link to them in other places... Eh, why not, I'm on it. Revisited Word of Mouth today for some small CSS tweaks, but I feel like it could use a complete overhaul. Sounds like a nice opportunity to practice Tailwind or Sass!`
   },
