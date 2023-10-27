@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "October 27th, 2023",
+    entry: `Continued working on styling today. On one of my pages, I have a Master Ball occasionally roll across the bottom via CSS animation. I had run into an issue where the transparent corners of the image were causing the page to scroll along the Y-axis as they rotated. I then proceeded to try <em>everything else</em> before finding the answer: switching the <code>position: absolute;</code> line to <code>position: fixed;</code> in the image's class. In my defense, setting a moving object to be fixed doesn't exactly leap to the front of the mind, semantically speaking. Silly thing to get tripped up on, but now that it's happened once, I surely <a href="https://www.youtube.com/watch?v=UDfAdHBtK_Q" target="_blank"> won't get fooled again</a>.`
+  },
+  {
     date: "October 26th, 2023",
-    entry: `I watched a video on hero page designs last night, and was inspired to make a cool landing page of my own for Pokédex Master. I'm no professional artist, but I was able to style some HTML elements to look like an old school Gameboy with buttons to render the log in and sign up forms to the little screen. Throw in a <a href="https://app.haikei.app/" target="_blank">Haikei</a> .svg element, and I think I ended up with something super cool. A pro UI/UX designer would probably be able to spruce it up more and really make it production-grade, but I'm pretty proud of what I was able to produce on my own. Can't wait to deploy and share, getting close!`
+    entry: `I watched a video on hero page designs last night, and was inspired to make an attractive landing page of my own for Pokédex Master. I'm no professional artist, but I was able to style some HTML elements to look like an old school Gameboy with buttons to render the log in and sign up forms to the little screen. Throw in a <a href="https://app.haikei.app/" target="_blank">Haikei</a> .svg element, and I think I ended up with something super cool. A pro UI/UX designer would probably be able to spruce it up more and really make it production-grade, but I'm pretty proud of what I was able to produce on my own. Can't wait to deploy and share, getting close!`
   },
   {
     date: "October 25th, 2023",
