@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 26th, 2023",
+    entry: `I watched a video on hero page designs last night, and was inspired to make a cool landing page of my own for Pokédex Master. I'm no professional artist, but I was able to style some HTML elements to look like an old school Gameboy with buttons to render the log in and sign up forms to the little screen. Throw in a <a href="https://app.haikei.app/" target="_blank">Haikei</a> .svg element, and I think I ended up with something super cool. A pro UI/UX designer would probably be able to spruce it up more and really make it production-grade, but I'm pretty proud of what I was able to produce on my own. Can't wait to deploy and share, getting close!`
+  },
+  {
     date: "October 25th, 2023",
     entry: `Registered for another Flatiron Career Week today, and updated my <a href="https://huntr.co/p/donte-ladatto">Huntr profile</a>. What's with all that empty white space in the header? I wanna fix it. I'm constantly zeroing in on things like that in UIs now, and it's crazy just how many sites have faulty or even completely unusable forms. Hey Liberty Mutual, your sticky navigation bar is a bit jarring on scroll up in Chrome... let me help you with that! 😜<br /> One of my own UIs received a welcome improvement today (and yesterday), as I finally got the 'Play' page of Pokédex Master to look semi-decent. I made a toolbar component to contain the toggles for difficulty and hints, and smoothly animated each change with Javascript and CSS transitions. I grow stronger by the day!`
   },
