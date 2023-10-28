@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 28th, 2023",
+    entry: `Learned about the CSS <code>:has()</code> selector today, and it's incredible. Being able to style an element's parent is cool, but it's what you can do with adjacent siblings that makes this selector really powerful. Browser support is almost fully there (get with the program, Firefox!), so I'm going to keep <code>:has()</code> in mind as I continue sprucing up my projects. This one is really going to save me from a lot of future headaches! I highly recommend <a href="https://www.youtube.com/watch?v=OGJvhpoE8b4" target="_blank">this video</a> from Kevin Powell if you want to learn more about this new-ish CSS feature.`
+  },
+  {
     date: "October 27th, 2023",
     entry: `Continued working on styling today. On one of my pages, I have a Master Ball occasionally roll across the bottom via CSS animation. I had run into an issue where the transparent corners of the image were causing the page to scroll along the Y-axis as they rotated. I then proceeded to try <em>everything else</em> before finding the answer: switching the <code>position: absolute;</code> line to <code>position: fixed;</code> in the image's class. In my defense, setting a moving object to be fixed doesn't exactly leap to the front of the mind, semantically speaking. Silly thing to get tripped up on, but now that it's happened once, I surely <a href="https://www.youtube.com/watch?v=UDfAdHBtK_Q" target="_blank"> won't get fooled again</a>.`
   },
