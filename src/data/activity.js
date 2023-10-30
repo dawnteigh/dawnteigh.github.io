@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 29th, 2023",
+    entry: "Mostly took it easy today, doing some more light styling work. Found out about registering properties in CSS and using them to set transitions on values that you typically cannot, like the colors in a gradient. Definitely something I might play around with in the UI redesigns I've got on the docket."
+  },
+  {
     date: "October 28th, 2023",
     entry: `Learned about the CSS <code>:has()</code> selector today, and it's incredible. Being able to style an element's parent is cool, but it's what you can do with adjacent siblings that makes this selector really powerful. Browser support is almost fully there (get with the program, Firefox!), so I'm going to keep <code>:has()</code> in mind as I continue sprucing up my projects. This one is really going to save me from a lot of future headaches! I highly recommend <a href="https://www.youtube.com/watch?v=OGJvhpoE8b4" target="_blank">this video</a> from Kevin Powell if you want to learn more about this new-ish CSS feature.`
   },
