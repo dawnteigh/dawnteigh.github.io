@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <h1>It would be my pleasure to speak with you.</h1>
-      <p>If you're interested in networking, have a job posting for me to look at, or you just want to talk projects or code in general, reach out to me via email, LinkedIn, or Discord!</p>
+      <p>If you want to talk projects, collaboration, or just code in general, I'm here! I'm also seeking employment as a React/Node.js developer, tell your friends. You can reach out to me via email, LinkedIn, or Discord!</p>
       <div className="icons">
         <a alt="email" href="mailto:donte279@gmail.com">
           <i className="fa-solid fa-envelope" aria-hidden="true"></i>
