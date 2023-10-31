@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 30th, 2023",
+    entry: "Went to the office (coffee shop) to do some work today, coding alongside my friends and fellow Flatiron graduates. I managed to finish building out my refreshed Pokédex reset functionality and remove the old Bootstrap modal I was using before. It's finally ready to deploy! I'm definitely not done improving the app, but it's playable and looks decent enough to share, so why not gather some external feedback?"
+  },
+  {
     date: "October 29th, 2023",
     entry: "Mostly took it easy today, doing some more light styling work. Found out about registering properties in CSS and using them to set transitions on values that you typically cannot, like the colors in a gradient. Definitely something I might play around with in the UI redesigns I've got on the docket."
   },
