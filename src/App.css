@@ -25,7 +25,9 @@ body {
 
 h1 {
   font-size: 2em;
-  margin-bottom: 0;
+  margin: .5rem auto;
+  color: white;
+  text-shadow: 0px 0px 5px #ffccff;
 }
 
 h2 {
