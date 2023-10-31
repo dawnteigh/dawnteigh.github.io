@@ -8,10 +8,6 @@ export const tasks = [
     status: "backlog"
   },
   {
-    desc: "Convert a portfolio project to use TypeScript",
-    status: "in progress"
-  },
-  {
     desc: "Participate in a hackathon",
     status: "complete"
   },
@@ -28,7 +24,7 @@ export const tasks = [
     status: "backlog"
   },
   {
-    desc: "Build an application using Next.js",
+    desc: "Build an application using Next.js and TypeScript",
     status: "in progress"
   },
   {
@@ -65,6 +61,10 @@ export const tasks = [
   },
   {
     desc: "Polished, responsive design for Pokédex Master",
+    status: "complete"
+  },
+  {
+    desc: "Migrate portfolio projects from Create React App",
     status: "in progress"
   }
 ]
