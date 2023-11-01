@@ -18,7 +18,7 @@ const Project = ({ project, setShow }) => {
     <div className='project-tile' onMouseEnter={() => setAnimate(true)} onMouseLeave={() => setAnimate(false)} >
       <h2 className="project-header">
         {name}
-        {deploy && <a href={deploy} target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>}
+        {deploy && <a href={deploy} target="_blank" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>}
       </h2>
       <div className="img-container">
         <img src={animate ? img.gif : img.static} alt={name} className="project-img" />

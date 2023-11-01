@@ -297,7 +297,7 @@ button:hover {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 2%;
+  right: -.5rem;
   font-size: 1rem;
 }
 
