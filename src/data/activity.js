@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 1st, 2023",
+    entry: `So after searching through countless tutorials where people were deploying their MERN frontends and backends separately, I finally got the bright idea to look at the <a href="https://create-react-app.dev/docs/deployment" target="_blank">Create-React-App docs</a> on deployment and found exactly what I needed. My Node server can serve up my static frontend, because why wouldn't it be able to? I should trust my instincts more before I just start tutorial surfing. 🤦🏽 I still need to create a <code>build.sh</code> file and write it into a build script so Render can auto-deploy my frontend changes, but Pokédex Master is live! Now I want to fix some immediate mobile issues, like removing the auto-zoom on input focus and adding landscape mode media queries, before I share my magnum opus.`
+  },
+  {
     date: "October 31st, 2023",
     entry: "It's Halloween and Github spooked me by changing the green squares of my contribution log to some festive fall colors. Fun! Spent most of my free time today researching all the different ways that I can deploy my MERN stack app. Probably gonna go with a single web service on Render for now, as I've got the the backend server and DB connection part working on there already. Guess I just need a build script for the frontend, like I would have done for my React + Rails projects. I'll figure it out tomorrow. Dev Ops: spooky stuff."
   },
