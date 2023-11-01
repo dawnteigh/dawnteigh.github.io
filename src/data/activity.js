@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "October 31st, 2023",
+    entry: "It's Halloween and Github spooked me by changing the green squares of my contribution log to some festive fall colors. Fun! Spent most of my free time today researching all the different ways that I can deploy my MERN stack app. Probably gonna go with a single web service on Render for now, as I've got the the backend server and DB connection part working on there already. Guess I just need a build script for the frontend, like I would have done for my React + Rails projects. I'll figure it out tomorrow. Dev Ops: spooky stuff."
+  },
+  {
     date: "October 30th, 2023",
     entry: "Went to the office (coffee shop) to do some work today, coding alongside my friends and fellow Flatiron graduates. I managed to finish building out my refreshed Pokédex reset functionality and remove the old Bootstrap modal I was using before. It's finally ready to deploy! I'm definitely not done improving the app, but it's playable and looks decent enough to share, so why not gather some external feedback?"
   },
