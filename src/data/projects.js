@@ -24,7 +24,7 @@ export const projects = [
     stack: "React - Node.js - Express - Mongoose - MongoDB",
     repo: "https://github.com/dawnteigh/Pokedex-Master",
     videoId: "H_qdlnG3dpU",
-    deploy: false
+    deploy: "https://pokedex-master.onrender.com"
   },
   {
     name: "Dice Goblin",
