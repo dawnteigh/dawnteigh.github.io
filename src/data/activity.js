@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 2nd, 2023",
+    entry: `Made some changes to the personal site today (this one), starting with the Kanban section. I had to to ditch the <code>justify-content: safe center</code> on the task containers because 'safe' doesn't have wide enough support, most notably on <em>zero</em> iOS mobile browsers. So between having the tasks vertically centered or being able to see all of them all of the time, I chose the latter. I then went ahead and updated Pokédex Master's project card with new images and the link to the deploy. I also noticed that this site doesn't even show up on Google. I want it to be top 3 when searching my name, so I will soon be delving into the wonderful world of SEO to make that happen.`
+  },
+  {
     date: "November 1st, 2023",
     entry: `So after searching through countless tutorials where people were deploying their MERN frontends and backends separately, I finally got the bright idea to look at the <a href="https://create-react-app.dev/docs/deployment" target="_blank">Create-React-App docs</a> on deployment and found exactly what I needed. My Node server can serve up my static frontend, because why wouldn't it be able to? I should trust my instincts more before I just start tutorial surfing. 🤦🏽 I still need to create a <code>build.sh</code> file and write it into a build script so Render can auto-deploy my frontend changes, but Pokédex Master is live! Now I want to fix some immediate mobile issues, like removing the auto-zoom on input focus and adding landscape mode media queries, before I share my magnum opus.`
   },
