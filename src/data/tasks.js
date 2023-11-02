@@ -66,5 +66,21 @@ export const tasks = [
   {
     desc: "Migrate portfolio projects from Create React App",
     status: "in progress"
+  },
+  {
+    desc: "SEO on portfolio site",
+    status: "backlog"
+  },
+  {
+    desc: "Deploy Pokédex Master",
+    status: "complete"
+  },
+  {
+    desc: "Record new Pokédex Master demo",
+    status: "in progress"
+  },
+  {
+    desc: "Optimize Pokédex Master for mobile",
+    status: "in progress"
   }
 ]

@@ -401,16 +401,14 @@ button:hover {
 
 .task-column {
   width: 30%;
-  height: auto;
   overflow: hidden;
 }
 
 .task-container {
   display: flex;
-  background-color: #131223;
   flex-direction: column;
-  justify-content: safe center;
-  height: 75vh;
+  background-color: #131223;
+  height: max(75vh, 80%);
   overflow: auto;
   border: 1px solid #ffccff;
   border-radius: 5px;
@@ -421,17 +419,20 @@ button:hover {
   padding: 1%;
   margin: 1% auto;
   width: 95%;
-  height: auto;
   border-radius: 5px;
   font-size: .8em;
   background-color: rgb(193, 0, 223);
   box-shadow: 0 0 3px 2px rgba(193, 0, 223, 0.5);
 }
 
-.task:nth-child(even) {
-  color: #131223;
-  background-color: rgb(255, 204, 255);
-  box-shadow: 0 0 3px 2px rgba(255, 204, 255, 0.5);
+.task:nth-child(3n-1) {
+  background-color: rgb(169, 37, 235);
+  box-shadow: 0 0 3px 2px rgba(169, 37, 235, 0.5);
+}
+
+.task:nth-child(3n) {
+  background-color: rgb(125, 24, 168);
+  box-shadow: 0 0 3px 2px rgba(125, 24, 168, 0.5);
 }
 
 /* Contact */
