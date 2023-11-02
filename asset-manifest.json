@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.4148b48f.css",
-    "main.js": "/static/js/main.372f556f.js",
+    "main.js": "/static/js/main.f6dae4de.js",
     "static/js/787.0d2acc7f.chunk.js": "/static/js/787.0d2acc7f.chunk.js",
     "static/media/word-of-mouth.gif": "/static/media/word-of-mouth.374ea1bb100f3bb7b44c.gif",
     "static/media/womstatic.png": "/static/media/womstatic.83967a1d0660e25184b4.png",
     "static/media/tossed-and-found.gif": "/static/media/tossed-and-found.43fa72755b830d0bbb7f.gif",
+    "static/media/pokedex-master.gif": "/static/media/pokedex-master.ee31adce756c9bec7b1a.gif",
     "static/media/dicegoblin.gif": "/static/media/dicegoblin.b953f35894f6cff119ae.gif",
     "static/media/equaled.gif": "/static/media/equaled.5f27c43969a6e23d004c.gif",
     "static/media/tafstatic.png": "/static/media/tafstatic.82f95eba7ade1167fae0.png",
     "static/media/equaledstatic.png": "/static/media/equaledstatic.60ad8dec0cc4a40a580b.png",
+    "static/media/pmstatic.png": "/static/media/pmstatic.8f1ec8806985a454ba98.png",
     "static/media/dgstatic.png": "/static/media/dgstatic.dcdfbc4ff6900a0550fc.png",
-    "static/media/pmstatic.png": "/static/media/pmstatic.e15f076fa3c3337a6672.png",
     "static/media/fullstackdev.jpeg": "/static/media/fullstackdev.27d901fdcc48f2428719.jpeg",
-    "static/media/pokedex-master.gif": "/static/media/pokedex-master.009bbc15309890f25bc5.gif",
     "static/media/amethyst-rift.svg": "/static/media/amethyst-rift.f2d52d3bb78397ec36c4.svg",
     "index.html": "/index.html",
     "main.4148b48f.css.map": "/static/css/main.4148b48f.css.map",
-    "main.372f556f.js.map": "/static/js/main.372f556f.js.map",
+    "main.f6dae4de.js.map": "/static/js/main.f6dae4de.js.map",
     "787.0d2acc7f.chunk.js.map": "/static/js/787.0d2acc7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4148b48f.css",
-    "static/js/main.372f556f.js"
+    "static/js/main.f6dae4de.js"
   ]
 }
