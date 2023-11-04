@@ -23,7 +23,7 @@ export const projects = [
     ],
     stack: "React - Node.js - Express - Mongoose - MongoDB",
     repo: "https://github.com/dawnteigh/Pokedex-Master",
-    videoId: "H_qdlnG3dpU",
+    videoId: "Wz7QNcJWP28",
     deploy: "https://pokedex-master.onrender.com"
   },
   {
