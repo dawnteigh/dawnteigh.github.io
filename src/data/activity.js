@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 3rd, 2023",
+    entry: `Wrote a shell script file for Pokédex Master so that the static frontend files can be rebuilt with every auto-deploy. I also added different style rules for mobile landscape orientation and increased the font size of text inputs to 16px to prevent the dreaded auto-zoom behavior. Now the biggest issue on mobile is the <a href="https://react-icons.github.io/react-icons" target="_blank">React Icons</a> not being centered inside of their buttons (at least not on iOS Chrome and Safari). Not super concerned with that at this point in time, instead I'm going to focus on making a new demo video and then sharing the project with a LinkedIn post tomorrow!`
+  },
+  {
     date: "November 2nd, 2023",
     entry: `Made some changes to the personal site today (this one), starting with the Kanban section. I had to to ditch the <code>justify-content: safe center</code> on the task containers because 'safe' doesn't have wide enough support, most notably on <em>zero</em> iOS mobile browsers. So between having the tasks vertically centered or being able to see all of them all of the time, I chose the latter. I then went ahead and updated Pokédex Master's project card with new images and the link to the deploy. I also noticed that this site doesn't even show up on Google. I want it to be top 3 when searching my name, so I will soon be delving into the wonderful world of SEO to make that happen.`
   },
