@@ -77,10 +77,14 @@ export const tasks = [
   },
   {
     desc: "Record new Pokédex Master demo",
-    status: "in progress"
+    status: "complete"
   },
   {
     desc: "Optimize Pokédex Master for mobile",
+    status: "complete"
+  },
+  {
+    desc: "Add image uploading to Tossed & Found + Word of Mouth",
     status: "in progress"
   }
 ]
