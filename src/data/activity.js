@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 4th, 2023",
+    entry: `I know I said I wasn't worried about the off-center button icons, but it was only a two-second fix with flexbox. Recorded the new demo video in what could be my lowest number of takes ever. Couldn't have been more than 50! Made the LinkedIn post too. Not a ton of engagement so far, but that's to be expected with a relatively small network like mine. I'm finally ready to start putting in some real effort on that front, no more feeling like I have nothing to contribute! If you're reading this, let's <a href="https://www.linkedin.com/in/donteladatto/" target="_blank">connect</a>!`
+  },
+  {
     date: "November 3rd, 2023",
     entry: `Wrote a shell script file for Pokédex Master so that the static frontend files can be rebuilt with every auto-deploy. I also added different style rules for mobile landscape orientation and increased the font size of text inputs to 16px to prevent the dreaded auto-zoom behavior. Now the biggest issue on mobile is the <a href="https://react-icons.github.io/react-icons" target="_blank">React Icons</a> not being centered inside of their buttons (at least not on iOS Chrome and Safari). Not super concerned with that at this point in time, instead I'm going to focus on making a new demo video and then sharing the project with a LinkedIn post tomorrow!`
   },
