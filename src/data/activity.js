@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 6th, 2023",
+    entry: "Trying to find a nice balance between networking, applying for jobs, and continuing to code. It's tough going so far, because I really just want to be in the lab all day. I'll hit my networking stride soon though, just being my typical, methodical self. On the code front, I've been looking into using Active Storage in my Rails apps to handle image uploads, with an AWS S3 bucket for use with my deploys. I've been trying to keep my focus to Javascript development, but file upload functionality in those projects is something I've wanted for a while now. I'll get that done, and then start on something new and make some UI changes on the side."
+  },
+  {
     date: "November 4th, 2023",
     entry: `I know I said I wasn't worried about the off-center button icons, but it was only a two-second fix with flexbox. Recorded the new demo video in what could be my lowest number of takes ever. Couldn't have been more than 50! Made the LinkedIn post too. Not a ton of engagement so far, but that's to be expected with a relatively small network like mine. I'm finally ready to start putting in some real effort on that front, no more feeling like I have nothing to contribute! If you're reading this, let's <a href="https://www.linkedin.com/in/donteladatto/" target="_blank">connect</a>!`
   },
