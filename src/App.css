@@ -453,6 +453,7 @@ button:hover {
 
 #contact p {
   max-width: 60ch;
+  line-height: 1.5rem;
 }
 
 .icons {
@@ -460,7 +461,7 @@ button:hover {
   margin: 0 auto;
   width: 80%;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2em;
+  gap: 2rem;
 }
 
 #contact i {
@@ -468,8 +469,8 @@ button:hover {
 }
 
 #contact h2 {
-  padding: 5% 0 0;
-  margin-bottom: 1%;
+  padding: 5% 0;
+  margin-bottom: .5rem;
 }
 
 #contact h2::after {

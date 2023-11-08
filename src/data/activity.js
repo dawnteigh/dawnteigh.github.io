@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "November 7th, 2023",
+    entry: `Tried to create a new hero image for Dice Goblin today using a bunch of different AI image generators. I ended up burning through all of my free credits without getting anything particularly useful. I was about to give up, thinking that prompt engineering for images was simply a different beast that I would need to research more in order to tame it. But then I found out that Microsoft has <a href="https://www.bing.com/create" target="_blank">DALL-E 3</a> -- for free! Instantly I was able to garner much better results, but after all of that... my vision still was not realized. I would much rather dictate what I am looking for to a real, human artist. Not only would I feel better about it, but I would undoubtedly get a better result every single time. I got some fun assets to potentially use for Dice Goblin, but will be nothing more than placeholders until I can commission something authentic.`
+  },
+  {
     date: "November 6th, 2023",
-    entry: "Trying to find a nice balance between networking, applying for jobs, and continuing to code. It's tough going so far, because I really just want to be in the lab all day. I'll hit my networking stride soon though, just being my typical, methodical self. On the code front, I've been looking into using Active Storage in my Rails apps to handle image uploads, with an AWS S3 bucket for use with my deploys. I've been trying to keep my focus to Javascript development, but file upload functionality in those projects is something I've wanted for a while now. I'll get that done, and then start on something new and make some UI changes on the side."
+    entry: "Trying to find a nice balance between networking, applying for jobs, and continuing to code. It's tough going so far, because I really just want to be in the lab all day. I'll hit my networking stride soon though; I'm just being my typical, methodical self. On the code front, I've been looking into using Active Storage in my Rails apps to handle image uploads, with an AWS S3 bucket for use with my deploys. I want to focus more on JavaScript development, but file upload functionality in those projects is something I've wanted for a while now. I'll get that done, and then work on the UIs on the side as I start my next big project."
   },
   {
     date: "November 4th, 2023",

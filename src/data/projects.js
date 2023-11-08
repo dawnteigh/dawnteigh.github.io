@@ -18,8 +18,8 @@ export const projects = [
       "My first React project; the original used JSON Server in place of a real backend and DB",
       "Implemented Node, with Express for routing and Mongoose to connect to and manage a MongoDB instance",
       "Incorporated React's useContext hook to manage local state and minimize prop drilling",
-      "Navigated deeply nested data from two divergent endpoints to return curated response objects to the client",
-      "Created functions to scrub data entries of any direct answer giveaways and to format user responses to match API data"
+      "Created functions to scrub data entries of any direct answer giveaways and to format user responses to match API data",
+      "Built several highly reusable React components from scratch"
     ],
     stack: "React - Node.js - Express - Mongoose - MongoDB",
     repo: "https://github.com/dawnteigh/Pokedex-Master",
@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     name: "Tossed and Found",
-    desc: "Users can track their disc golf disc collections, scorekeep rounds, and message other users. Discs are given a unique finder key that can be written on the back, allowing lost discs to be returned to their owners through the app.",
+    desc: "Disc golfing companion. Users can track their disc collections, scorekeep rounds, and message other users. Discs are given a unique finder key that can be written on the back, allowing lost discs to be returned to their owners through the app.",
     img: { static: tafstatic, gif: tossedandfound },
     highlights: [
       "Constructed MVC-style application using Ruby on Rails, with React for the views and PostgreSQL as the relational database management system",

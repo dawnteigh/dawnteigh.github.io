@@ -4,10 +4,10 @@ const Contact = () => {
   return (
     <div id="contact">
       <h1>It would be my pleasure to speak with you.</h1>
-      <p>If you want to talk projects, collaboration, or just code in general, I'm here!
+      <p>If you want to talk projects, potential collaboration, or just code in general, I'm here!
         <br />
-        I'm also actively seeking frontend or full-stack employment opportunities, primarily those involving React & NodeJS. To be honest though, if I'm getting paid to code, you can bet I'll be fully devoting myself to quickly mastering whatever technologies are required.
-        <br />
+        I'm also actively seeking frontend or full-stack employment opportunities, primarily those involving React & NodeJS. My mind is open to using other tech stacks of course, and you can bet I'll be fully devoting myself to quickly mastering whatever technologies are required. My inquisitive nature and competitive fire work in tandem to ensure that I'm not useless at anything for too long!
+        <br /><br />
         You can reach out to me via email, LinkedIn, or Discord!</p>
       <div className="icons">
         <a alt="email" href="mailto:donte279@gmail.com">
