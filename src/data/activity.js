@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 9th, 2023",
+    entry: "Successfully got the image upload functionality working locally. I kept the image URL attribute on the disc model so that my seed data still works for the app demo. I also took the opportunity to set the default image to the sparkling new disc logo that I made, since uploading an image on disc creation is optional. I know it's not exactly an optimal setup, so I'll keep tinkering with it. I'll do some more learning on AWS S3 and get my production storage set up tomorrow. Made another LinkedIn post, attended a couple of virtual workshops; I did a little bit of everything today!"
+  },
+  {
     date: "November 8th, 2023",
     entry: `Today I learned that the color banding in the gifs of my projects that use gradients is the result of the file format only supporting 256 colors. This IN ADDITION to having an official pronunciation that is wrong?! I switched to a screen recorder that allows dithering to make a new gif for Dice Goblin and it looks <em>a little</em> better. In terms of things under the surface, I began working on implementing Active Storage in Tossed and Found. It being a Rails project, most of what I had to do was just uncommenting out certain lines. I will need to make some changes to the Disc model though... and learn how to send a file upload from the frontend... and then I'll be expanding my horizons further with something called Amazon S3... Sounds like a good day!`
   },
