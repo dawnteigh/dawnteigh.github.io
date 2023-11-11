@@ -59,12 +59,6 @@ code {
   background-image: url("./assets/amethyst-rift.svg");
 }
 
-.secondary-paragraph {
-  word-spacing: normal;
-  font-size: .9em;
-  margin: 0 auto;
-}
-
 a,
 .youtube {
   color: white;
@@ -156,7 +150,7 @@ button:hover {
   overflow: auto;
   border: 1px solid #ffccff;
   border-radius: 5px;
-  padding: 1%;
+  padding: 1% 2%;
   margin-bottom: 2%;
 }
 
