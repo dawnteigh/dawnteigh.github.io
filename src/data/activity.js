@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 11th, 2023",
+    entry: `Created an S3 bucket and connected to it with ease. Done. Next, I wanted to limit the type of files that could be uploaded to a handful of image extensions. Two quick Google searches and I'm setting the <code>accept</code> attribute on my html forms and using the <a href="https://github.com/igorkasyanchuk/active_storage_validations" target="_blank">active_storage_validations</a> gem to validate the size and file extensions of potential image attachments. Done! Next thing I know, I'm updating environment variables on Render and merging my image uploads branch... aaand done! In the space of 30 minutes, Tossed & Found with optional image upload functionality is <a href="https://tossed-and-found.onrender.com/" target="_blank">live</a>! If I had known it was this easy, I wouldn't have waited so long to do it! Word of Mouth is up next.`
+  },
+  {
     date: "November 10th, 2023",
     entry: "It was a bit of a weird day today, so I didn't get around to finishing my S3 bucket business. I did my research and I will hit the ground running in the morning. I made a goofy header image for my LinkedIn, so there's something!"
   },
