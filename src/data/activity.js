@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 10th, 2023",
+    entry: "It was a bit of a weird day today, so I didn't get around to finishing my S3 bucket business. I did my research and I will hit the ground running in the morning. I made a goofy header image for my LinkedIn, so there's something!"
+  },
+  {
     date: "November 9th, 2023",
     entry: "Successfully got the image upload functionality working locally. I kept the image URL attribute on the disc model so that my seed data still works for the app demo. I also took the opportunity to set the default image to the sparkling new disc logo that I made, since uploading an image on disc creation is optional. I know it's not exactly an optimal setup, so I'll keep tinkering with it. I'll do some more learning on AWS S3 and get my production storage set up tomorrow. Made another LinkedIn post, attended a couple of virtual workshops; I did a little bit of everything today!"
   },
