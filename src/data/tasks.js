@@ -84,7 +84,11 @@ export const tasks = [
     status: "complete"
   },
   {
-    desc: "Add image uploading to Tossed & Found + Word of Mouth",
+    desc: "Add image uploading to Tossed & Found",
+    status: "complete"
+  },
+  {
+    desc: "Rework Redux logic & add image uploading to Word of Mouth",
     status: "in progress"
   }
 ]
