@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 12th, 2023",
+    entry: `Today was for resume updates, networking, and watching football. I didn't want to have a zero-code day, so I also did some preliminary research on how I might use <a href="https://www.framer.com/motion/" target="_blank">Framer Motion</a> to add some page transitions to this site. Going to try and do that tomorrow, between networking chats and Flatiron Career Week events.`
+  },
+  {
     date: "November 11th, 2023",
     entry: `Created an S3 bucket and connected to it with ease. Done. Next, I wanted to limit the type of files that could be uploaded to a handful of image extensions. Two quick Google searches and I'm setting the <code>accept</code> attribute on my html forms and using the <a href="https://github.com/igorkasyanchuk/active_storage_validations" target="_blank">active_storage_validations</a> gem to validate the size and file extensions of potential image attachments. Done! Next thing I know, I'm updating environment variables on Render and merging my image uploads branch... aaand done! In the space of 30 minutes, Tossed & Found with optional image upload functionality is <a href="https://tossed-and-found.onrender.com/" target="_blank">live</a>! If I had known it was this easy, I wouldn't have waited so long to do it! Word of Mouth is up next.<br/>
     <b>Update:</b> It seems Word of Mouth is going to be somewhat of a different process, with the nested forms and the fact that I need to update a review in two different places in my Redux store. I'm going to table this until I can carve out some more time to brush up on my Thunks and fix the tangled Redux mess that past me created. It'll be fun!`

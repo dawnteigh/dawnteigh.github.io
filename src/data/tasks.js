@@ -90,5 +90,9 @@ export const tasks = [
   {
     desc: "Rework Redux logic & add image uploading to Word of Mouth",
     status: "in progress"
+  },
+  {
+    desc: "Add page transitions to portfolio",
+    status: "in progress"
   }
 ]
