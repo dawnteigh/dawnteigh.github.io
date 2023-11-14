@@ -9,14 +9,14 @@ const transition = (Component) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 0 }}
         exit={{ opacity: 1 }}
-        transition={{ duration: 2, ease: [.22, 1, .36, 1] }}
+        transition={{ duration: 1, ease: "easeOut" }}
       />
       <motion.div
         className="fade-out"
         initial={{ opacity: 1 }}
         animate={{ opacity: 0 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 2, ease: [.22, 1, .36, 1] }}
+        transition={{ duration: 1, ease: "easeOut" }}
       />
     </>
   )
