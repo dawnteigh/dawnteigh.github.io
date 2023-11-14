@@ -1,6 +1,7 @@
 import React from 'react'
 import Task from './Task'
 import { tasks } from '../data/tasks'
+import transition from '../transition'
 
 const TaskBoard = () => {
 
@@ -33,4 +34,4 @@ const TaskBoard = () => {
   )
 }
 
-export default TaskBoard
+export default transition(TaskBoard)

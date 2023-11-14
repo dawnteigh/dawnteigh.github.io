@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Project from './Project'
 import PopupPlayer from './PopupPlayer'
 import { projects } from '../data/projects'
+import transition from '../transition'
 
 const Projects = () => {
 
@@ -29,4 +30,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default transition(Projects)
