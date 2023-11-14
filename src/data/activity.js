@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 13th, 2023",
+    entry: `Had a great chat with a recently employed Flatiron grad. Super cool guy! I came away with some actionable advice from someone that learned the same tech stack that I did, and hearing about his job search experience was ultra inspiring. I've probably said this before, but now I'm ready to really start trying. What? I mean it! Got page transitions set up on the site pretty quickly, opting for a simple fade-in. I'm going to play around with some different stuff in the morning though, and I'm also thinking of overhauling the Portfolio page. Maybe a 3D scroll through the project cards... I've sort of been against over-the-top 3D animations for portfolio sites, but this can be tasteful. 😛<br/>I'll be sure to set CSS rules for <code>prefers-reduced-motion</code>.`
+  },
+  {
     date: "November 12th, 2023",
     entry: `Today was for resume updates, networking, and watching football. I didn't want to have a zero-code day, so I also did some preliminary research on how I might use <a href="https://www.framer.com/motion/" target="_blank">Framer Motion</a> to add some page transitions to this site. Going to try and do that tomorrow, between networking chats and Flatiron Career Week events.`
   },

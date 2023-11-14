@@ -93,6 +93,6 @@ export const tasks = [
   },
   {
     desc: "Add page transitions to portfolio",
-    status: "in progress"
+    status: "complete"
   }
 ]
