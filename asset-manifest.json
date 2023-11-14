@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.3b203e85.css",
-    "main.js": "/static/js/main.70ce62b4.js",
+    "main.js": "/static/js/main.305762ec.js",
     "static/js/787.0d2acc7f.chunk.js": "/static/js/787.0d2acc7f.chunk.js",
     "static/media/word-of-mouth.gif": "/static/media/word-of-mouth.374ea1bb100f3bb7b44c.gif",
-    "static/media/womstatic.png": "/static/media/womstatic.83967a1d0660e25184b4.png",
     "static/media/tossed-and-found.gif": "/static/media/tossed-and-found.43fa72755b830d0bbb7f.gif",
     "static/media/pokedex-master.gif": "/static/media/pokedex-master.ee31adce756c9bec7b1a.gif",
     "static/media/dgstatic.png": "/static/media/dgstatic.39094e206fc45578df55.png",
+    "static/media/womstatic.png": "/static/media/womstatic.e5823c4327bfc37147ee.png",
     "static/media/equaled.gif": "/static/media/equaled.5f27c43969a6e23d004c.gif",
     "static/media/dicegoblin.gif": "/static/media/dicegoblin.1febe22cd47bf237308f.gif",
     "static/media/tafstatic.png": "/static/media/tafstatic.82f95eba7ade1167fae0.png",
@@ -17,11 +17,11 @@
     "static/media/amethyst-rift.svg": "/static/media/amethyst-rift.f2d52d3bb78397ec36c4.svg",
     "index.html": "/index.html",
     "main.3b203e85.css.map": "/static/css/main.3b203e85.css.map",
-    "main.70ce62b4.js.map": "/static/js/main.70ce62b4.js.map",
+    "main.305762ec.js.map": "/static/js/main.305762ec.js.map",
     "787.0d2acc7f.chunk.js.map": "/static/js/787.0d2acc7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b203e85.css",
-    "static/js/main.70ce62b4.js"
+    "static/js/main.305762ec.js"
   ]
 }
