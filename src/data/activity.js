@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 14th, 2023",
+    entry: "Just got back from another great Dallas Software Developers meetup, featuring 6 outstanding speakers with JavaScript-centric topics. I was at least tangentially familiar with each technology that was discussed; it's extremely encouraging to be able to follow along with what an industry professional is demonstrating (and sometimes even call a couple of moves in advance). I belong! Met some cool people, unsurprisingly. Must be a dev thing, being cool. Biggest takeaway? I'm going to include TanStack Query as part of my Word of Mouth project overhaul."
+  },
+  {
     date: "November 13th, 2023",
     entry: `Had a great chat with a recently employed Flatiron grad. Super cool guy! I came away with some actionable advice from someone that learned the same tech stack that I did, and hearing about his job search experience was ultra inspiring. I've probably said this before, but now I'm ready to really start trying. What? I mean it! Got page transitions set up on the site pretty quickly, opting for a simple fade-in. I'm going to play around with some different stuff in the morning though, and I'm also thinking of overhauling the Portfolio page. Maybe a 3D scroll through the project cards... I've sort of been against over-the-top 3D animations for portfolio sites, but this can be tasteful. 😛<br/>I'll be sure to set CSS rules for <code>prefers-reduced-motion</code>.`
   },
