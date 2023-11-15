@@ -88,7 +88,11 @@ export const tasks = [
     status: "complete"
   },
   {
-    desc: "Rework Redux logic & add image uploading to Word of Mouth",
+    desc: "Learn TanStack Query and use it in place of Redux in Word of Mouth",
+    status: "in progress"
+  },
+  {
+    desc: "Add image uploading to Word of Mouth",
     status: "in progress"
   },
   {
