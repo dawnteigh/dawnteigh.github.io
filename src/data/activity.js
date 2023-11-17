@@ -1,7 +1,7 @@
 export const activity = [
   {
     date: "November 16th, 2023",
-    entry: `Overcame my fear of reaching out yesterday! They were nice in giving me more details, explaining that it was more of a CMS role. We agreed it wasn't the best fit, but left the door open for potential contract work down the road. Not too bad for a first time, I guess I'll keep on trying! Went through most of today in a haze while I waited for the day's career week webinars. Got more of the same information from different sources. Then I excitedly sat down to start <a href="https://query.gg/" target="_blank">this TanStack Query course</a>, only to get to the bottom of the page and find out that it hasn't been released yet. That would have been great information to put at the very top, y'all. Clean design though, I'll admit.`
+    entry: `Dedicated yesterday and today to the job search and Flatiron Career Week events. Then I excitedly sat down to start <a href="https://query.gg/" target="_blank">this TanStack Query course</a>, only to get to the bottom of the page and find out that it hasn't been released yet. That would have been great information to put at the very top, y'all. Clean design though, I'll admit.`
   },
   {
     date: "November 14th, 2023",
