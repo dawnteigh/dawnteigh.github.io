@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 18th, 2023",
+    entry: `I finally got around to checking out <a href="https://leetcode.com/" target="_blank">LeetCode</a>, doing a couple of easy-breezy "medium" JavaScript problems. The performance stats are super helpful; I enjoy refactoring to try and find the optimal solution. Setting a goal of at least two problems every day from here on out.`
+  },
+  {
     date: "November 16th, 2023",
     entry: `Dedicated yesterday and today to the job search and Flatiron Career Week events. Then I excitedly sat down to start <a href="https://query.gg/" target="_blank">this TanStack Query course</a>, only to get to the bottom of the page and find out that it hasn't been released yet. That would have been great information to put at the very top, y'all. Clean design though, I'll admit.`
   },
