@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 20th, 2023",
+    entry: `Got pretty busy today (as I do most Mondays), so I didn't do much outside of a handful of LeetCode problems. All of the ones I tackled today had to do with modifying arrays in place with JavaScript, so I had to dust off my <code>.sort()</code> method and for loop skills. Ended my session by finishing in the 99th percentile in terms of runtime on the first solution I crafted for a problem. It probably means nothing, but it still feels good. 😛`
+  },
+  {
     date: "November 19th, 2023",
     entry: `Started off my morning reading the TanStack Query docs, but then quickly fell into watching football and doing <a href="https://www.immaculategrid.com/football" target="_blank">these NFL grid puzzles</a>. Something like this would be a fun project to do in a new language... Anyway, essentially had a day off. I'll still do my LeetCode though. Ruby this time!`
   },
