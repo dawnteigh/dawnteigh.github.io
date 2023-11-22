@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 21st, 2023",
+    entry: `Today's report: I got back into the TanStack Query docs and made two pumpkin pies. Full day. 🥧`
+  },
+  {
     date: "November 20th, 2023",
     entry: `Got pretty busy today (as I do most Mondays), so I didn't do much outside of a handful of LeetCode problems. All of the ones I tackled today had to do with modifying arrays in place with JavaScript, so I had to dust off my <code>.sort()</code> method and for loop skills. Ended my session by finishing in the 99th percentile in terms of runtime on the first solution I crafted for a problem. It probably means nothing, but it still feels good. 😛`
   },
