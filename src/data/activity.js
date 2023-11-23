@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 23rd, 2023",
+    entry: "Traveled across state lines yesterday; I'm visiting with family for the holiday weekend. I still was able to carve out some time to do a few LeetCode problems last night and this morning. Is there anything a loop can't solve? Anyway, I've been thinking about learning React Native, and a relative of mine wants an app for their business. Sounds like a great chance to build upon and sharpen my skills!"
+  },
+  {
     date: "November 21st, 2023",
     entry: `Today's report: I got back into the TanStack Query docs and made two pumpkin pies. Full day. 🥧`
   },
