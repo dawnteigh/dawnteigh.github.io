@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 24th, 2023",
+    entry: "Did the problems where you convert a Roman numeral to an integer and vice-versa. I crafted a solution for conversion into a Roman numeral that would cover integers up to 9999, but it exceeded the time limit. Since technically the highest integer that can be expressed in Roman numerals is 3999, I turned instead to a solution featuring 4 arrays of hard-coded string values for thousands, hundreds, tens, and ones. Work smarter, not harder; code to the constraints."
+  },
+  {
     date: "November 23rd, 2023",
     entry: "Traveled across state lines yesterday; I'm visiting with family for the holiday weekend. I still was able to carve out some time to do a few LeetCode problems last night and this morning. Is there anything a loop can't solve? Anyway, I've been thinking about learning React Native, and a relative of mine wants an app for their business. Sounds like a great chance to build upon and sharpen my skills!"
   },
