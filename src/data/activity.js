@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 25th, 2023",
+    entry: `Continued running through the 'Top Interview 150' problems on <a href="https://leetcode.com/studyplan/top-interview-150/" target="_blank">LeetCode</a>. The first was a simple three-line solution, finding the length of the last word of a string. Some of the test cases had extra whitespace on the end, so I had to use the <code>.trim()</code> method and run my solution a grand total of two times to pass. Next, I had to find the longest common prefix among an array of strings. At first, I misread the problem (it's late!) and wrote a solution for finding the longest shared prefix that <em>most frequently</em> appeared across an array of strings, but not necessarily one that was shared by <em>every</em> word. After failing, correcting my answer was only a matter of changing the iterators of my nested for loops and repurposing one of my declared variables to be a boolean. I'm getting better at attacking these!`
+  },
+  {
     date: "November 24th, 2023",
     entry: "Did the problems where you convert a Roman numeral to an integer and vice-versa. I crafted a solution for conversion into a Roman numeral that would cover integers up to 9999, but it exceeded the time limit. Since technically the highest integer that can be expressed in Roman numerals is 3999, I turned instead to a solution featuring 4 arrays of hard-coded string values for thousands, hundreds, tens, and ones. Work smarter, not harder; code to the constraints."
   },
