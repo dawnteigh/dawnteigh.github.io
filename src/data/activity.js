@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 26th, 2023",
+    entry: `Finished a handful of <a href="https://leetcode.com/studyplan/top-interview-150/" target="_blank">LeetCode</a>problems while watching football, then closed out the day by reading up on JsDoc and the type-inference it provides. Documentation in general is something I'm going place more emphasis on as I continue writing code, as it is a very real skill that my future self and co-workers will thank me for.`
+  },
+  {
     date: "November 25th, 2023",
     entry: `Continued running through the 'Top Interview 150' problems on <a href="https://leetcode.com/studyplan/top-interview-150/" target="_blank">LeetCode</a>. The first was a simple three-line solution, finding the length of the last word of a string. Some of the test cases had extra whitespace on the end, so I had to use the <code>.trim()</code> method and run my solution a grand total of two times to pass. Next, I had to find the longest common prefix among an array of strings. At first, I misread the problem (it's late!) and wrote a solution for finding the longest shared prefix that <em>most frequently</em> appeared across an array of strings, but not necessarily one that was shared by <em>every</em> word. After failing, correcting my answer was only a matter of changing the iterators of my nested for loops and repurposing one of my declared variables to be a boolean. I'm getting better at attacking these!`
   },
