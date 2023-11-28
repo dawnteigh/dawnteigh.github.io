@@ -1,7 +1,7 @@
 export const activity = [
   {
     date: "November 26th, 2023",
-    entry: `Finished a handful of <a href="https://leetcode.com/studyplan/top-interview-150/" target="_blank">LeetCode</a>problems while watching football, then closed out the day by reading up on JsDoc and the type-inference it provides. Documentation in general is something I'm going place more emphasis on as I continue writing code, as it is a very real skill that my future self and co-workers will thank me for.`
+    entry: `Finished a handful of <a href="https://leetcode.com/" target="_blank">LeetCode</a>problems while watching football, then closed out the day by reading up on JsDoc and the type-inference it provides. Documentation in general is something I'm going place more emphasis on as I continue writing code, as it is a very real skill that my future self and co-workers will thank me for.`
   },
   {
     date: "November 25th, 2023",

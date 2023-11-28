@@ -98,5 +98,9 @@ export const tasks = [
   {
     desc: "Add page transitions to portfolio",
     status: "complete"
+  },
+  {
+    desc: "Learn and build with React Native",
+    status: "in progress"
   }
 ]
