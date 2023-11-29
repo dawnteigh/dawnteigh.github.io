@@ -88,6 +88,10 @@ export const tasks = [
     status: "complete"
   },
   {
+    desc: "Refactor Word of Mouth frontend to use Vite + TypeScript",
+    status: "in progress"
+  },
+  {
     desc: "Learn TanStack Query and use it in place of Redux in Word of Mouth",
     status: "in progress"
   },
