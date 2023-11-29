@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 28th, 2023",
+    entry: "Staying busy with job applications, LeetCode, and attending webinars. My personal projects have fallen by the wayside as of late, so I've started a new branch in Word of Mouth to apply what I've learned of TypeScript and Tanstack Query. I created a scaffold with Vite and opted for SWC over Babel, so there's two more new things right there. Gonna spend a few days on this overhaul before trying to dive into React Native."
+  },
+  {
     date: "November 26th, 2023",
     entry: `Finished a handful of <a href="https://leetcode.com/" target="_blank">LeetCode</a>problems while watching football, then closed out the day by reading up on JsDoc and the type-inference it provides. Documentation in general is something I'm going place more emphasis on as I continue writing code, as it is a very real skill that my future self and co-workers will thank me for.`
   },
