@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "November 29th, 2023",
+    entry: "Interviewing on the phone is a skill all on its own... It's crazy how nervous I get over an old-fashioned phone chat as opposed to a video call! I was pacing and my voice was trembling; I was a wreck. I got more comfortable as it went on, but I definitely need more practice. At the very least it didn't sound rehearsed! Got a take home assignment to do, so I'll knock that out in lieu of LeetCode tonight."
+  },
+  {
     date: "November 28th, 2023",
     entry: "Staying busy with job applications, LeetCode, and attending webinars. My personal projects have fallen by the wayside as of late, so I've started a new branch in Word of Mouth to apply what I've learned of TypeScript and Tanstack Query. I created a scaffold with Vite and opted for SWC over Babel, so there's two more new things right there. Gonna spend a few days on this overhaul before trying to dive into React Native."
   },
