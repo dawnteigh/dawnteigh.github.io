@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "November 30th, 2023",
+    entry: `Turned in my take home solutions, documented with JsDoc syntax and comments to explain my process. I almost wrote tests for them (all I got to work from was a .txt file), but I'm a little rusty at Jest and I didn't want to take too long on these. The first problem involved cleaning invalid and duplicate data from an array of objects and sorting conditionally by two different attributes. I had to refamiliarize myself with the <code>.reduce()</code> method, using it as a means to filter objects with the same 'id' and 'name' attributes so that only the one with the highest value in a third attribute was retained. The second problem was just writing a function that performed CRUD actions on a hard-coded, internally scoped array. Nothing too crazy, but it was still fun! I also attended a virtual job fair today, but it was really nothing to write home about. Lastly, I brainstormed some ideas to improve Pokédex Master based on some user feedback. I'm going to see about adding a dropdown to the answer form that will suggest Pokémon names as the user types. This should help to alleviate spelling woes, and taking it away could be another component of playing in 'Hard' mode.`
+  },
+  {
     date: "November 29th, 2023",
-    entry: "Interviewing on the phone is a skill all on its own... It's crazy how nervous I get over an old-fashioned phone chat as opposed to a video call! I was pacing and my voice was trembling; I was a wreck. I got more comfortable as it went on, but I definitely need more practice. At the very least it didn't sound rehearsed! Got a take home assignment to do, so I'll knock that out in lieu of LeetCode tonight."
+    entry: "Interviewing on the phone is a skill all on its own... It's crazy how nervous I get over an old-fashioned phone chat as opposed to a video call! I was pacing and my voice was trembling; I was a wreck. I got more comfortable as it went on, but I definitely need more practice. At the very least it didn't sound rehearsed! Got a take home assessment to do, so I'll knock that out in lieu of LeetCode tonight."
   },
   {
     date: "November 28th, 2023",
