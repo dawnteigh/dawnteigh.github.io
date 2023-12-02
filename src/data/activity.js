@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 1st, 2023",
+    entry: "Noticed in my gif for Dice Goblin that creating a new die doesn't immediately open the show panel for that die, which I found to be less than ideal. So, I fixed it! I reworked the Bootstrap Accordion component so that I could programmatically control it with a state variable, and added toggle functionality to the end of the new die function. Then I sort of fell down a rabbit hole where I want to have a local default image if an image url wasn't provided and all of a sudden I'm in the Sinatra docs. It's late, I'm just going to table this until the morning..."
+  },
+  {
     date: "November 30th, 2023",
     entry: `Turned in my take home solutions, documented with JsDoc syntax and comments to explain my process. I almost wrote tests for them (all I got to work from was a .txt file), but I'm a little rusty at Jest and I didn't want to take too long on these. The first problem involved cleaning invalid and duplicate data from an array of objects and sorting conditionally by two different attributes. I had to refamiliarize myself with the <code>.reduce()</code> method, using it as a means to filter objects with the same 'id' and 'name' attributes so that only the one with the highest value in a third attribute was retained. The second problem was just writing a function that performed CRUD actions on a hard-coded, internally scoped array. Nothing too crazy, but it was still fun! I also attended a virtual job fair today, but it was really nothing to write home about. Lastly, I brainstormed some ideas to improve Pokédex Master based on some user feedback. I'm going to see about adding a dropdown to the answer form that will suggest Pokémon names as the user types. This should help to alleviate spelling woes, and taking it away could be another component of playing in 'Hard' mode.`
   },
@@ -13,7 +17,7 @@ export const activity = [
   },
   {
     date: "November 26th, 2023",
-    entry: `Finished a handful of <a href="https://leetcode.com/" target="_blank">LeetCode</a>problems while watching football, then closed out the day by reading up on JsDoc and the type-inference it provides. Documentation in general is something I'm going place more emphasis on as I continue writing code, as it is a very real skill that my future self and co-workers will thank me for.`
+    entry: `Finished a handful of <a href="https://leetcode.com/" target="_blank">LeetCode</a> problems while watching football, then closed out the day by reading up on JsDoc and the type-inference it provides. Documentation in general is something I'm going place more emphasis on as I continue writing code, as it is a very real skill that my future self and co-workers will thank me for.`
   },
   {
     date: "November 25th, 2023",
