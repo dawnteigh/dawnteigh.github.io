@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 3rd, 2023",
+    entry: `Figured out yesterday that all I needed to do was put the image in the public folder in the frontend directory and set the default image url in the die model to the relative file path. There's really no need for me to do anything else as far as Sinatra is concerned, as I plan to rewrite the Dice Goblin backend in Java anyway. Today I started a new branch in Pokédex Master to work on the predictive dropdown. I'm using a <a href="https://github.com/PokeAPI/pokedex-promise-v2" target="_blank">Node.js wrapper library for PokéAPI</a> to retrieve all of the Pokémon species objects from the API's paginated endpoints. The response I get is an object with a 'results' key, with the value of that key being an array of nested object arrays. I plan to start my day tomorrow by concocting an algorithm that can pull the name attribute from each of those objects and save them in a state variable that I can then use for my dropdown.`
+  },
+  {
     date: "December 1st, 2023",
     entry: "Noticed in my gif for Dice Goblin that creating a new die doesn't immediately open the show panel for that die, which I found to be less than ideal. So, I fixed it! I reworked the Bootstrap Accordion component so that I could programmatically control it with a state variable, and added toggle functionality to the end of the new die function. Then I sort of fell down a rabbit hole where I want to have a local default image if an image url wasn't provided and all of a sudden I'm in the Sinatra docs. It's late, I'm just going to table this until the morning..."
   },
