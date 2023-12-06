@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 5th, 2023",
+    entry: "Technical interview ended up not happening. C'est la vie, nothing to do but keep rolling with the punches. Did some coffee shop coding with my friends today, and built my dropdown component from scratch. It came together so quickly! I'll stress test it some more before pushing to production, but I really like how it turned out. I'll probably get my loading component set up too, and just worry about refactoring my app to use Suspense at a later date."
+  },
+  {
     date: "December 4th, 2023",
     entry: `Getting the list of names was a lot easier than I initially thought it'd be, and it is now readily available via my context provider. Next I will experiment with <a href="https://www.npmjs.com/package/react-select-search" target="_blank">this npm package</a> for the dropdown component. Depending on how customizable it is, I may just build my own. We'll see. Had two job-related phone calls derailed by my cell service going out, so shout-out to AT&T for making me look unreliable. Hopefully service comes back tomorrow, but in the meantime, I've got a technical interview to prepare for...`
   },
