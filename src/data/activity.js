@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 7th, 2023",
+    entry: "Pushed version 2.0.1 of Pokédex Master yesterday. Then I went to DnD last night and tried using Dice Goblin. Now I've got a whole host of features that I want to add, starting with a quick-select toolbar for easier access to the dice you are currently using. I had planned on going to the Dallas Software Developers meeting tonight, but I'll be spending some time with a friend that is moving away next week instead. Needless to say, it's a low-code day. I did watch a video on Appian!"
+  },
+  {
     date: "December 5th, 2023",
     entry: "Technical interview ended up not happening. C'est la vie, nothing to do but keep rolling with the punches. Did some coffee shop coding with my friends today, and built my dropdown component from scratch. It came together so quickly! I'll stress test it some more before pushing to production, but I really like how it turned out. I'll probably get my loading component set up too, and just worry about refactoring my app to use Suspense at a later date."
   },
