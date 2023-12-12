@@ -106,5 +106,18 @@ export const tasks = [
   {
     desc: "Learn and build with React Native",
     status: "in progress"
-  }
+  },
+  {
+    desc: "Get Appian Developer Certification",
+    blocker: "Unable to secure Appian Community Edition site at this time",
+    status: "in progress"
+  },
+  {
+    desc: "Assistive dropdown for Pokédex Master",
+    status: "complete"
+  },
+  {
+    desc: "Add customizable session view to Dice Goblin",
+    status: "complete"
+  },
 ]
