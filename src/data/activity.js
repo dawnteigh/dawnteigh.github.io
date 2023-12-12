@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 11th, 2023",
+    entry: `Oops, been a few days. I'm keeping busy though. For that new Dice Goblin feature I simply added an array of die ids to global state, and toggles on each die card to add or remove dice from said array. Then I added tabs above the die list so the user (me) can toggle between viewing the whole collection of dice and the ones they're using for their session. Revisiting this app showed me just how far I've come in terms of front end system design, but I was able to navigate the <i>slightly convoluted</i> component tree that the old me had cultivated and deliver a new feature in just a couple of hours. I still want to do a radical rebuild (especially the Sinatra backend), but it's infinitely more usable already. I've started working towards becoming a Certified Associate Developer with Appian, but I've hit a snag; due to heightened demand I'm currently unable to secure my Appian Community Edition site for following along with the coursework. Devastating.`
+  },
+  {
     date: "December 7th, 2023",
     entry: "Pushed version 2.0.1 of Pokédex Master yesterday. Then I went to DnD last night and tried using Dice Goblin. Now I've got a whole host of features that I want to add, starting with a quick-select toolbar for easier access to the dice you are currently using. I had planned on going to the Dallas Software Developers meeting tonight, but I'll be spending some time with a friend that is moving away next week instead. Needless to say, it's a low-code day. I did watch a video on Appian!"
   },
