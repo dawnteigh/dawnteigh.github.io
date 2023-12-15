@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 14th, 2023",
+    entry: `Applied for some more jobs, practiced with leetCode. I'm trying to write a solution to <a href="https://leetcode.com/problems/h-index/description/" target="_blank">this H-Index problem</a> that <em>doesn't</em> use <code>.sort()</code>. I'll make it my warm-up exercise tomorrow morning before I jump into project work. My book got delivered to my neighbors' door, and they vacuumed it in within minutes. Didn't answer when I knocked. We'll see if I get it before Amazon lets me request a new one on Saturday. 🫠`
+  },
+  {
     date: "December 12th, 2023",
     entry: `Studied up on some Big O, completed an assessment for a job opportunity, and placed an order for "Cracking the Coding Interview" by Gayle Laakmann McDowell.`
   },
