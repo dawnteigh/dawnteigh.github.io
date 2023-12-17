@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 16th, 2023",
+    entry: `Spent some time working on leetCode's "Top Interview 150" problems. <a href="https://pokeapi.co/" target="_blank">PokéAPI</a> still isn't up to date with the latest DLC for Scarlet and Violet; waiting on that before releasing the next Pokédex Master version, because I know I'll have to hard-code the dex entries. I should really make a pull request to add the data myself...`
+  },
+  {
     date: "December 14th, 2023",
     entry: `Applied for some more jobs, practiced with leetCode. I'm trying to write a solution to <a href="https://leetcode.com/problems/h-index/description/" target="_blank">this H-Index problem</a> that <em>doesn't</em> use <code>.sort()</code>. I'll make it my warm-up exercise tomorrow morning before I jump into project work. My book got delivered to my neighbors' door, and they vacuumed it in within minutes. Didn't answer when I knocked. Stay tuned!<br/>Update: They were heading out the door and had just instinctively brought it in. They brought it over when they got home. There's still good people out there, y'all!`
   },
