@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 17th, 2023",
+    entry: `Made some adjustments and fixes to Tossed & Found today. First I moved the logic that generates a unique finder key for a disc from the controller to the model. I wrote a couple of private methods: one to generate a unique token by continuing to loop if a collision occurs, and another to set the disc intance's finder_key to the return value of the previous method. I then used the <code>before_create</code> macro to call the latter method whenever a new disc object is to be written to the database. Then I fixed an issue where I had apparently removed the user object from a serialized disc, which broke the disc finder in the frontend. Hope nobody saw that... Lastly, I fixed the scorecard buttons! Previously, clicking on the plus or minus icons seemingly wouldn't fire the event. But it was firing; my onClick function just depended on an id that my buttons had but my Semantic UI Icons (which are DOM elements all on their own) did not. It's crazy; if I wanted to, I could write three whole blog posts about 30 minutes of work on a project. I love code.`
+  },
+  {
     date: "December 16th, 2023",
     entry: `Spent some time working on leetCode's "Top Interview 150" problems. <a href="https://pokeapi.co/" target="_blank">PokéAPI</a> still isn't up to date with the latest DLC for Scarlet and Violet; waiting on that before releasing the next Pokédex Master version, because I know I'll have to hard-code the dex entries. I should really make a pull request to add the data myself...`
   },
