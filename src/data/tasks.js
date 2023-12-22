@@ -120,4 +120,8 @@ export const tasks = [
     desc: "Add customizable session view to Dice Goblin",
     status: "complete"
   },
+  {
+    desc: "Complete React Native course on Codecademy",
+    status: "in progress"
+  }
 ]
