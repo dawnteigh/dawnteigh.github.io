@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 22nd, 2023",
+    entry: `Going back to the <a href="https://www.codecademy.com/learn">Codecademy</a> well to learn React Native. Lately I've had no idea what I should focus on; wanting to try everything but never walking too far down one path. I think it's time I just get back to building and actually applying the things that I've been learning. By the end of this pursuit, I should have a new portfolio project, an app to potentially help out a family member, and the ability to add React Native to my resume.`
+  },
+  {
     date: "December 18th, 2023",
     entry: `Lots of leetCode today. As I tackle the medium and hard problems, it seems that there are more things that I need to study up on algorithm-wise. I see things like 'brute-force' or 'two-pointer' being tossed around regularly, but I can only guess at their meanings. Is that where a computer science degree comes into play? I'll have to brush up on some of this terminology over the holidays. I'll be driving 21 hours one way over the next two days to visit family, but that doesn't mean I'll let up on this keyboard. Gotta keep the Github streak alive!`
   },
