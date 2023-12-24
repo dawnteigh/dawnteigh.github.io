@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 24th, 2023",
+    entry: "Covered accessibility props, dynamic in-line styling, and the 'dp' unit for setting consistent sizes across devices. Everything is nice and familiar so far. Family is starting to trickle in, so I'm signing off for the day."
+  },
+  {
     date: "December 23rd, 2023",
     entry: "Learned about how React Native works, and about the core components. Styling is different, but I've used JavaScript objects in place of CSS at times in my previous work with React, so it's not all that crazy to me. Hooked my phone up to my development environment using Expo Go and nerded out over that for a bit. I'm excited to dive in further!"
   },
