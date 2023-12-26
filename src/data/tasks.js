@@ -123,5 +123,5 @@ export const tasks = [
   {
     desc: "Complete React Native course on Codecademy",
     status: "in progress"
-  }
+  },
 ]

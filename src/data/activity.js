@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 26th, 2023",
+    entry: "Wrapped up the React Native course on Codecademy, even going so far as to snag another Pro trial to get access to all of the quizzes and coding challenges. Now I need to do something with this... I'm going to watch a few videos and get an idea of what a full-stack app might look like. Then I think I want to learn how to use the device's camera, as a handful of my apps would love to have that functionality in mobile form."
+  },
+  {
     date: "December 25th, 2023",
     entry: `Didn't have a ton of time to work today, but I got into navigation patterns in React Native a little bit. Gonna try to learn a little more about <code>react-navigation</code> tonight.`
   },
