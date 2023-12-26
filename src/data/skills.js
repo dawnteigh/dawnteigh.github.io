@@ -32,6 +32,10 @@ export const skills = [
     level: "three"
   },
   {
+    skill: "React Native",
+    level: "one"
+  },
+  {
     skill: "Redux",
     level: "three"
   },
