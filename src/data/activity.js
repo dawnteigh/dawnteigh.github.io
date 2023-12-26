@@ -1,7 +1,7 @@
 export const activity = [
   {
     date: "December 25th, 2023",
-    entry: "Didn't have a ton of time to work today, but I got into navigation patterns in React Native a little bit."
+    entry: `Didn't have a ton of time to work today, but I got into navigation patterns in React Native a little bit. Gonna try to learn a little more about <code>react-navigation</code> tonight.`
   },
   {
     date: "December 24th, 2023",
