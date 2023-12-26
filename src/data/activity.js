@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 25th, 2023",
+    entry: "Didn't have a ton of time to work today, but I got into navigation patterns in React Native a little bit."
+  },
+  {
     date: "December 24th, 2023",
     entry: "Covered accessibility props, dynamic in-line styling, and the 'dp' unit for setting consistent sizes across devices. Everything is nice and familiar so far. Family is starting to trickle in, so I'm signing off for the day."
   },
