@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "December 31st, 2023",
+    entry: "Been working on a React Native client for Dice Goblin. Got an app icon made, and the entry point and a bottom tab navigator are all set up. Finally home from Cleveland, so I should have some more down time to really get it going. January will be a busy month."
+  },
+  {
     date: "December 26th, 2023",
     entry: "Wrapped up the React Native course on Codecademy, even going so far as to snag another Pro trial to get access to all of the quizzes and coding challenges. Now I need to do something with this... I'm going to watch a few videos and get an idea of what a full-stack app might look like. Then I think I want to learn how to use the device's camera, as a handful of my apps would love to have that functionality in mobile form."
   },
