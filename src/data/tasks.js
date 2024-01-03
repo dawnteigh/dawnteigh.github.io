@@ -124,4 +124,8 @@ export const tasks = [
     desc: "Complete React Native course on Codecademy",
     status: "complete"
   },
+  {
+    desc: "Complete React Native client for Dice Goblin",
+    status: "in progress"
+  },
 ]
