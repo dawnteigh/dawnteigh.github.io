@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 4th, 2024",
+    entry: `Steadily getting back into a rhythm. <a href="https://pokeapi.co/" target=_blank">PokéAPI</a> is now up to date with the latest DLC, so I updated the dex ranges in Pokédex Master and manually added the dex entries (which are still missing from the API). I'll add the loader and improved Pokédex sorting eventually to round out the 2.1 update. I scheduled a couple of interviews today, and I also had a great conversation with an employed fellow bootcamp grad! After some relative downtime over the holidays, I'm quickly gaining inspiration and momentum in this new year!`
+  },
+  {
     date: "December 31st, 2023",
     entry: "Been working on a React Native client for Dice Goblin. Got an app icon made, and the entry point and a bottom tab navigator are all set up. Finally home from Cleveland, so I should have some more down time to really get it going. January will be a busy month."
   },
