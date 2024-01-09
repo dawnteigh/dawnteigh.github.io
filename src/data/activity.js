@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 9th, 2024",
+    entry: "Yeesh, am I bad at interviews! Or am I just too hard on myself? Por qué no los dos? The problems weren't mindblowing, but in the midst of my first whiteboard-style setting, I kept freezing up. I know it's more about my process than it is about a producing a correct answer, but I was struggling to even get my train of thought going! Interviewing is a skill, and I am not a natural. That said, regardless of what happens with this opportunity, it was good experience that I can grow from. I'm thankful for that!"
+  },
+  {
     date: "January 8th, 2024",
     entry: "Ran through 10 LeetCode problems today. I feel pretty good about two-pointers now! My plan is to do a few more ahead of my technical interview tomorrow, sandwiched around a quick runthrough of one of my projects (just in case)."
   },
