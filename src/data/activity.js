@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 8th, 2024",
+    entry: "Ran through 10 LeetCode problems today. I feel pretty good about two-pointers now! My plan is to do a few more ahead of my technical interview tomorrow, sandwiched around a quick runthrough of one of my projects (just in case)."
+  },
+  {
     date: "January 6th, 2024",
     entry: "I've been busy with interview prep for the past two days. I dove into the LeetCode 75 problems to get into the right mindset. I also noticed today that I really need to work on accessibility within my apps. I was looking at my custom dropdown in Pokédex Master and realized that it isn't keyboard navigable or even visible to a screen reader. Something to work on after I complete these interviews, in addition to my React Native endeavors."
   },
