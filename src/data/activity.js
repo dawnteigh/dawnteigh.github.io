@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "January 12th, 2024",
+    entry: `Didn't get it, big surprise there. 😅<br/> Had an interview for a job in town that I'm hopeful about, but I'll continue making forward progress while I wait for word on that. Going to be retooling my resume this weekend and begin applying in earnest for this new year! I've been continuing to work on algorithms as well, not only because I find them sorta fun but also because they are still inextricably linked to most application processes.`
+  },
+  {
     date: "January 9th, 2024",
-    entry: "Yeesh, am I bad at interviews! Or am I just too hard on myself? Por qué no los dos? The problems weren't mindblowing, but in the midst of my first whiteboard-style setting, I kept freezing up. I know it's more about my process than it is about a producing a correct answer, but I was struggling to even get my train of thought going! Interviewing is a skill, and I am not a natural. That said, regardless of what happens with this opportunity, it was good experience that I can grow from. I'm thankful for that!"
+    entry: "Yeesh, am I bad at interviews! Or am I just too hard on myself? Por qué no los dos? The problems weren't mindblowing, but in the midst of my first whiteboard-style setting, I kept freezing up. I know it's more about my process than it is about a producing a correct answer, but I was struggling to even get my train of thought going! Interviewing is a skill, and I am not a natural. That said, regardless of what happens with this opportunity, it was good experience that I can grow from."
   },
   {
     date: "January 8th, 2024",
