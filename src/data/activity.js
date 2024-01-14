@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 13th, 2024",
+    entry: "Read from 'Cracking the Coding Interview' and did my daily leetCode problems before watching the Cleveland Browns get utterly decimated. My condolences to my family up north."
+  },
+  {
     date: "January 12th, 2024",
     entry: `Didn't get it, big surprise there. 😅<br/> Had an interview for a job in town that I'm hopeful about, but I'll continue making forward progress while I wait for word on that. Going to be retooling my resume this weekend and begin applying in earnest for this new year! I've been continuing to work on algorithms as well, not only because I find them sorta fun but also because they are still inextricably linked to most application processes.`
   },
