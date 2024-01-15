@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "January 14th, 2024",
+    entry: "Haven't done much more than my LeetCode today. Might do some more later; still reeling from watching my Dallas Cowboys get utterly decimated. Condolences to myself. 🤣"
+  },
+  {
     date: "January 13th, 2024",
-    entry: "Read from 'Cracking the Coding Interview' and did my daily leetCode problems before watching the Cleveland Browns get utterly decimated. My condolences to my family up north."
+    entry: "Read from 'Cracking the Coding Interview' and did my daily LeetCode problems before watching the Cleveland Browns get utterly decimated. My condolences to my family up north."
   },
   {
     date: "January 12th, 2024",
