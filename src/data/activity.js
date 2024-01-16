@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 15th, 2024",
+    entry: `Crafted my updated resume today, using <a href="https://www.careercup.com/resume" target="_blank">Gayle McDowell's template</a>. Going to settle in for some algorithm practice tonight and start throwing my new document at some job postings tomorrow.`
+  },
+  {
     date: "January 14th, 2024",
     entry: "Haven't done much more than my LeetCode today. Might do some more later; still reeling from watching my Dallas Cowboys get utterly decimated. Condolences to myself. 🤣"
   },
