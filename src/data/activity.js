@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 16th, 2024",
+    entry: "Did some applying and some LeetCode. Worked with binary trees and singly-linked lists today, data structures I haven't worked with in months. Employed some recursive solutions to solve a few of those problems, and it was exhilarating! I really need to get back into project work though. Tomorrow morning I shall resume my React Native project."
+  },
+  {
     date: "January 15th, 2024",
     entry: `Crafted my updated resume today, using <a href="https://www.careercup.com/resume" target="_blank">Gayle McDowell's template</a>. Going to settle in for some algorithm practice tonight and start throwing my new document at some job postings tomorrow.`
   },
