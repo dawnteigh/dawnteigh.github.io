@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 19th, 2024",
+    entry: `Staying busy with algos, interview prep, and job applications. Slowly finding my way with my Dice Goblin React Native re-skin. The original just uses the Context API for state management, but I wanted to try out something new. After looking at the better options out there for small apps like mine, I was naturally drawn to <a href="https://zustand-demo.pmnd.rs/" target='_blank'>Zustand</a>! Looks simple enough to implement, which is a huge plus since I'm already in somewhat uncharted territory. I'm excited to make this 'bearbones' state management solution with a delightful animal mascot the latest pit stop in my journey of growth and learning. You might even say I can bearly contain myself.<br/>Ugh, sorry.`
+  },
+  {
     date: "January 16th, 2024",
     entry: "Did some applying and some LeetCode. Worked with binary trees and singly-linked lists today, data structures I haven't worked with in months. Employed some recursive solutions to solve a few of those problems, and it was exhilarating! I really need to get back into project work though. Tomorrow morning I shall resume my React Native project."
   },
