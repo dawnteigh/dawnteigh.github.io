@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 20th, 2024",
+    entry: `Followed along with <a href="https://www.youtube.com/watch?v=fZPgBnL2x-Q&t=647s" target="_blank">this video</a> from freeCodeCamp to get acquainted with Zustand. Learned how to create drag-and-drop functionality in React as a bonus! It's a great tutorial, but already a little outdated at 8 months old. Using the <code>shallow</code> comparator function with the standard store creator function is now deprecated in Zustand. Instead, I had to use <code>createWithEqualityFn</code> to create my store, passing <code>shallow</code> as a second argument at creation rather than declaring it every time I call my <code>useStore</code> hook in my components. Definitely an improvement! Big fan of the minimal boilerplate of Zustand, and I also really like how it can be integrated with the Redux dev tools in Chrome. I look forward to implementing it within Dice Goblin Go tomorrow!`
+  },
+  {
     date: "January 19th, 2024",
     entry: `Staying busy with algos, interview prep, and job applications. Slowly finding my way with my Dice Goblin React Native re-skin. The original just uses the Context API for state management, but I wanted to try out something new. After looking at the better options out there for small apps like mine, I was naturally drawn to <a href="https://zustand-demo.pmnd.rs/" target='_blank'>Zustand</a>! Looks simple enough to implement, which is a huge plus since I'm already in somewhat uncharted territory. I'm excited to make this 'bearbones' state management solution with a delightful animal mascot the latest pit stop in my journey of growth and learning. You might even say I can bearly contain myself.<br/>Ugh, sorry.`
   },
