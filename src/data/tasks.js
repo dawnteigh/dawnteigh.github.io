@@ -25,7 +25,7 @@ export const tasks = [
   },
   {
     desc: "Build an application using Next.js and TypeScript",
-    status: "in progress"
+    status: "backlog"
   },
   {
     desc: "Learn Angular and use it in a project",
@@ -65,7 +65,7 @@ export const tasks = [
   },
   {
     desc: "Migrate portfolio projects from Create React App",
-    status: "in progress"
+    status: "backlog"
   },
   {
     desc: "SEO on portfolio site",
@@ -89,15 +89,16 @@ export const tasks = [
   },
   {
     desc: "Refactor Word of Mouth frontend to use Vite + TypeScript",
-    status: "in progress"
+    status: "backlog"
   },
   {
     desc: "Learn TanStack Query and use it in place of Redux in Word of Mouth",
-    status: "in progress"
+    blocker: "Waiting on the official course to drop because it looks super cool",
+    status: "backlog"
   },
   {
     desc: "Add image uploading to Word of Mouth",
-    status: "in progress"
+    status: "backlog"
   },
   {
     desc: "Add page transitions to portfolio",
@@ -110,7 +111,7 @@ export const tasks = [
   {
     desc: "Get Appian Developer Certification",
     blocker: "Unable to secure Appian Community Edition site at this time",
-    status: "in progress"
+    status: "backlog"
   },
   {
     desc: "Assistive dropdown for Pokédex Master",
@@ -128,4 +129,8 @@ export const tasks = [
     desc: "Complete React Native client for Dice Goblin",
     status: "in progress"
   },
+  {
+    desc: "Learn and implement Zustand in Dice Goblin Native client",
+    status: "complete"
+  }
 ]
