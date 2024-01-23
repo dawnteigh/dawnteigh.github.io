@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "January 21st, 2024",
+    entry: `Went over the store testing part of that video with vitest to wrap up the tutorial. Then I had to replace my expired PostgreSQL instance on Render for my app demos that nobody even looks at. 😛<br/> Got my Zustand store set up in Dice Goblin Native, along with a couple of async actions. Piece of cake. Going to turn my attention to the forms and other UI components so I can get everything hooked up and try using the app with my original backend. I want to at least be able to record a demo of the React Native client. Then I'll worry about a brand new backend, camera functionality, and image uploads.`
+  },
+  {
     date: "January 20th, 2024",
-    entry: `Followed along with <a href="https://www.youtube.com/watch?v=fZPgBnL2x-Q&t=647s" target="_blank">this video</a> from freeCodeCamp to get acquainted with Zustand. Learned how to create drag-and-drop functionality in React as a bonus! It's a great tutorial, but already a little outdated at 8 months old. Using the <code>shallow</code> comparator function with the standard store creator function is now deprecated in Zustand. Instead, I had to use <code>createWithEqualityFn</code> to create my store, passing <code>shallow</code> as a second argument at creation rather than declaring it every time I call my <code>useStore</code> hook in my components. Definitely an improvement! Big fan of the minimal boilerplate of Zustand, and I also really like how it can be integrated with the Redux dev tools in Chrome. I look forward to implementing it within Dice Goblin Go tomorrow!`
+    entry: `Followed along with <a href="https://www.youtube.com/watch?v=fZPgBnL2x-Q&t=647s" target="_blank">this video</a> from freeCodeCamp to get acquainted with Zustand. Learned how to create drag-and-drop functionality in React as a bonus! It's a great tutorial, but already a little outdated at 8 months old. Using the <code>shallow</code> comparator function with the standard store creator function is now deprecated in Zustand. Instead, I had to use <code>createWithEqualityFn</code> to create my store, passing <code>shallow</code> as a second argument at creation rather than declaring it every time I call my <code>useStore</code> hook in my components. Definitely an improvement! Big fan of the minimal boilerplate of Zustand, and I also really like how it can be integrated with the Redux dev tools in Chrome. I look forward to implementing it within Dice Goblin Native tomorrow!`
   },
   {
     date: "January 19th, 2024",
