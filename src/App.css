@@ -407,6 +407,9 @@ button:hover {
 /* Kanban */
 #task-board {
   margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -424,7 +427,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   background-color: #131223;
-  height: max(75vh, 80%);
+  height: min(75vh, 80%);
   overflow: auto;
   border: 1px solid #ffccff;
   border-radius: 5px;
@@ -619,6 +622,9 @@ button:hover {
 
   #task-board {
     flex-flow: column wrap;
+    overflow: auto;
+    position: absolute;
+    padding-bottom: 1rem;
   }
 
   .task-column {
