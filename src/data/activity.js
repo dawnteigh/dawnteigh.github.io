@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 24th, 2024",
+    entry: "Had my best phone interview yet today! Still wasn't great, but progress is being made. Also did some algos and watched some React Native vids."
+  },
+  {
     date: "January 21st, 2024",
     entry: `Went over the store testing part of that video with vitest to wrap up the tutorial. Then I had to replace my expired PostgreSQL instance on Render for my app demos that nobody even looks at. 😛<br/> Got my Zustand store set up in Dice Goblin Native, along with a couple of async actions. Piece of cake. Going to turn my attention to the forms and other UI components so I can get everything hooked up and try using the app with my original backend. I want to at least be able to record a demo of the React Native client. Then I'll worry about a brand new backend, camera functionality, and image uploads.`
   },
