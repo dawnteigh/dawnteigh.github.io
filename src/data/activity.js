@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "January 31st, 2024",
+    entry: "Moved into my new place today! Unfortunately there was a mixup with my internet situation, so I'll be without until February 6th. Bummer, but it gives me the chance to read 'Cracking the Coding Interview' more when I'm at home. Plus I can just walk to the coffee shop to get work done! I'm excited to no longer have the move hanging over me, and ready to hit the ground running."
+  },
+  {
     date: "January 27th, 2024",
     entry: "Got set up to start working with Java today. Initially I thought I might use it for the Dice Goblin backend rebuild, but I decided to just roll with Node.js and run it back with a local SQLite DB. I'll deploy Java + Spring Boot for the next idea I pull off the shelf. I haven't been coding as much as I would like to lately; I've been a little preoccupied with job applications and my upcoming move. Oh, and rewatching The Office again. I'll be better!"
   },
