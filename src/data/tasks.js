@@ -134,7 +134,7 @@ export const tasks = [
     status: "complete"
   },
   {
-    desc: "Implement DG Native image upload functionality with react-native-image-picker",
+    desc: "Implement DG Native image upload functionality with expo-image-picker",
     status: "in progress"
   }
 ]
