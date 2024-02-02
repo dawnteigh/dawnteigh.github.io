@@ -132,5 +132,9 @@ export const tasks = [
   {
     desc: "Learn and implement Zustand in Dice Goblin Native client",
     status: "complete"
+  },
+  {
+    desc: "Implement DG Native image upload functionality with react-native-image-picker",
+    status: "in progress"
   }
 ]
