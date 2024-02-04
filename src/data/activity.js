@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: "February 3rd, 2024",
+    entry: `Spent the last few days unpacking, reading, and further planning out DG Native features. I wanted to sort out device camera and photo gallery access for when a user uploads an image when creating or editing dice, so I spent a few hours at the coffee shop looking into libraries that help with that. I started off working with <code>react-native-image-picker</code> but soon realized I couldn't find the iOS permissions list file in my project directory. Why? Oh yeah, I'm using Expo! Working on this project as sporadically as I have, I had forgotten about that crucial nugget. A bit of backtracking and a <code>npx expo install expo-image-picker</code> later, and I'm on the right track. Tomorrow morning is for job search work, and then I will delve into how I might go about using device storage, time permitting.`
+  },
+  {
     date: "January 31st, 2024",
-    entry: "Moved into my new place today! Unfortunately there was a mixup with my internet situation, so I'll be without until February 6th. Bummer, but it gives me the chance to read 'Cracking the Coding Interview' more when I'm at home. Plus I can just walk to the coffee shop to get work done! I'm excited to no longer have the move hanging over me, and ready to hit the ground running."
+    entry: "Moved into my new place today. Unfortunately there was a mixup with my internet situation, so I'll be without until February 6th. Bummer, but it gives me the chance to read 'Cracking the Coding Interview' more when I'm at home. Plus I can just walk to the coffee shop to get work done! I'm excited to no longer have the move hanging over me, and ready to hit the ground running."
   },
   {
     date: "January 27th, 2024",
