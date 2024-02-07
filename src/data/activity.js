@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'February 7th, 2024',
+    entry: "I have wifi at last! I've gotten expo-image-picker working in terms of launching the native camera and image gallery. Sadly there seems to be a longtime bug on iOS where you cannot crop an image taken with the camera. I'm making a note to find a workaround for that later, perhaps one that involves creating a custom UI. For now I will proceed with the next steps of building an API layer and configuring a local storage solution. It feels good to be back at my desk again."
+  },
+  {
     date: "February 3rd, 2024",
     entry: `Spent the last few days unpacking, reading, and further planning out DG Native features. I wanted to sort out device camera and photo gallery access for when a user uploads an image when creating or editing dice, so I spent a few hours at the coffee shop looking into libraries that help with that. I started off working with <code>react-native-image-picker</code> but soon realized I couldn't find the iOS permissions list file in my project directory. Why? Oh yeah, I'm using Expo! Working on this project as sporadically as I have, I had forgotten about that crucial nugget. A bit of backtracking and a <code>npx expo install expo-image-picker</code> later, and I'm on the right track. Tomorrow morning is for job search work, and then I will delve into how I might go about using device storage, time permitting.`
   },
