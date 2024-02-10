@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'February 9th, 2024',
+    entry: "Watched a few videos on expo-sqlite after exploring the docs yesterday. Then I fell down a Youtube rabbit hole where I learned just how many different database paradigms there are, and a little bit about when you might like to use which. I'd like to try my hand at a project with a graph database sometime soon. There's just so much that I want to explore, it's a struggle to stick with one thing. Tomorrow morning, I'm putting the blinders on and tackling all of the DG Native backend logic."
+  },
+  {
     date: 'February 7th, 2024',
     entry: "I have wifi at last! I've gotten expo-image-picker working in terms of launching the native camera and image gallery. Sadly there seems to be a longtime bug on iOS where you cannot crop an image taken with the camera. I'm making a note to find a workaround for that later, perhaps one that involves creating a custom UI. For now I will proceed with the next steps of building an API layer and configuring a local storage solution. It feels good to be back at my desk again."
   },
