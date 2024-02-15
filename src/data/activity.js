@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'February 14th, 2024',
+    entry: `Happy Valentine's Day! It's been a while since my last update, but I've been pretty busy working and applying for jobs. Unable to keep myself from trying new things, I've been incorporating the <a href="https://orm.drizzle.team/" target="_blank">Drizzle ORM</a> into DG Native, which entails using some TypeScript as well.`
+  },
+  {
     date: 'February 9th, 2024',
     entry: "Watched a few videos on expo-sqlite after exploring the docs yesterday. Then I fell down a Youtube rabbit hole where I learned just how many different database paradigms there are, and a little bit about when you might like to use which. I'd like to try my hand at a project with a graph database sometime soon. There's just so much that I want to explore, it's a struggle to stick with one thing. Tomorrow morning, I'm putting the blinders on and tackling all of the DG Native backend logic."
   },
