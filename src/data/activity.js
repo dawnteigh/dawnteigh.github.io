@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'February 15th, 2024',
+    entry: `Attended the <a href="https://aws.amazon.com/events/awsome-day/awsome-day-online/" target="_blank">AWSome Day</a> online conference today, which consisted of surface level descriptions of basic Amazon Web Services, an AWS console demo, and a handful of case studies/testimonials. I guess I was expecting a little more, unless... AWS isn't all that complicated? If that's the case, then all of the job postings out there that are listing AWS proficiency as a qualification need to chill. While I feel like I could have better used my time on something else today, I did score a free retake of any AWS certification exam if I were to somehow fail it, and I get an AWSome Day Certificate of Attendance in a week (ha!) that I can post on LinkedIn. Worth it? Nah, not really. Alexa, send me a free stress ball or something.`
+  },
+  {
     date: 'February 14th, 2024',
     entry: `Happy Valentine's Day! It's been a while since my last update, but I've been pretty busy working and applying for jobs. Unable to keep myself from trying new things, I've been incorporating the <a href="https://orm.drizzle.team/" target="_blank">Drizzle ORM</a> into DG Native, which entails using some TypeScript as well.`
   },
