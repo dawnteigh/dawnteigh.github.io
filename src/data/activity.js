@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'February 22nd, 2024',
+    entry: `Tuned in to the Dallas Software Developers' "A Night of Java" tonight. Great speakers, as always. I'll definitely be checking out Vaadin as I start to dip my toes in Java. I've been really busy with work, but I'm finding time here and there to make small changes to DG Native and trying to incorporate Drizzle and Expo SQLite. I think I'd like to step away from that for a bit to start something from scratch. I feel like I got too ambitious too quickly, trying too many new things at once. I'll come back to DG Native at a later date, when I feel I can confidently put all of the pieces together.`
+  },
+  {
     date: 'February 15th, 2024',
     entry: `Attended the <a href="https://aws.amazon.com/events/awsome-day/awsome-day-online/" target="_blank">AWSome Day</a> online conference today, which consisted of surface level descriptions of basic Amazon Web Services, an AWS console demo, and a handful of case studies/testimonials. I guess I was expecting a little more, unless... AWS isn't all that complicated? If that's the case, then all of the job postings out there that are listing AWS proficiency as a qualification need to chill. While I feel like I could have better used my time on something else today, I did score a free retake of any AWS certification exam if I were to somehow fail it, and I get an AWSome Day Certificate of Attendance in a week (ha!) that I can post on LinkedIn. Worth it? Nah, not really. Alexa, send me a free stress ball or something.`
   },
