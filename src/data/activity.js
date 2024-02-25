@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'February 24th, 2024',
+    entry: `Started Dan Vega's Spring Boot Crash Course <a href="https://www.youtube.com/watch?v=UgX5lgv4uVM" target="_blank">video</a> today. Who better to learn from? Got busy with work, but I aim to finish it up tomorrow (it's a three-and-a-half hour endeavor, without all the pausing). Fun stuff though!`
+  },
+  {
     date: 'February 22nd, 2024',
     entry: `Tuned in to the Dallas Software Developers' "A Night of Java" tonight. Great speakers, as always. I'll definitely be checking out Vaadin as I start to dip my toes in Java. I've been really busy with work, but I'm finding time here and there to make small changes to DG Native and trying to incorporate Drizzle and Expo SQLite. I think I'd like to step away from that for a bit to start something from scratch. I feel like I got too ambitious too quickly, trying too many new things at once. I'll come back to DG Native at a later date, when I feel I can confidently put all of the pieces together.`
   },
