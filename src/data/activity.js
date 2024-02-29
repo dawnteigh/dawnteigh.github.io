@@ -1,7 +1,11 @@
 export const activity = [
   {
+    date: 'February 28th, 2024',
+    entry: `Today I learned that a lambda expression is just an anonymous function. This whole time I've been thinking that 'lambdas' must be some kind of high-level comp-sci concept whenever I would read it in passing, but it turns out that I've written thousands of them. The realization came when I happened across <code>-></code> while working with Java and noted the similarity to JavaScript arrow functions. Naturally I wanted to know just <i>how</i> similar, and why Java opted for the thin arrow when other languages went the thick route. Lessons learned!`
+  },
+  {
     date: 'February 24th, 2024',
-    entry: `Started Dan Vega's Spring Boot Crash Course <a href="https://www.youtube.com/watch?v=UgX5lgv4uVM" target="_blank">video</a> today. Who better to learn from? Got busy with work, but I aim to finish it up tomorrow (it's a three-and-a-half hour endeavor, without all the pausing). Fun stuff though!`
+    entry: `Started Dan Vega's Spring Boot Crash Course <a href="https://www.youtube.com/watch?v=UgX5lgv4uVM" target="_blank">video</a> today. Who better to learn from? I've been pretty busy with work, so I'm not sure when I'll finish it (it's a three-and-a-half hour endeavor, without all the pausing). Fun stuff though!`
   },
   {
     date: 'February 22nd, 2024',
