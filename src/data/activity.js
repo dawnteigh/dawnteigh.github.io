@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'March 4th, 2024',
+    entry: `Signed up for another hackathon through Flatiron. The project is to be a budgeting app that leverages AI/ML tech. I'm looking forward to applying what I learned from the last one! I've already started creating the Discord channel for my future team so we can get a jump on things. 😅<br/>I've been taking my time with the Spring Boot crash course, trying to make sure I really absorb the syntax and understand what it is I'm building. So far I've created a basic full-CRUD REST API (acronym attack!). Next, Dan is going to show me how to connect it to a database!`
+  },
+  {
     date: 'February 28th, 2024',
     entry: `Today I learned that a lambda expression is just an anonymous function. This whole time I've been thinking that 'lambdas' must be some kind of high-level comp-sci concept whenever I would read it in passing, but it turns out that I've written thousands of them. The realization came when I happened across <code>-></code> while working with Java and noted the similarity to JavaScript arrow functions. Naturally I wanted to know just <i>how</i> similar, and why Java opted for the thin arrow when other languages went the thick route. Lessons learned!`
   },
