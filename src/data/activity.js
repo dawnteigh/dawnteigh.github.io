@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'March 11th, 2024',
+    entry: "We have elected to roll with Python for our backend, so I've started to dig into Flatiron's Python/Flask curriculum to get reacquainted with the language."
+  },
+  {
     date: 'March 10th, 2024',
     entry: `Been hard at work lately, but not the kind of work I want to be doing. That will change in short order, though, as the Spring 2024 Flatiron Hackathon is underway! Met a few team members today, seems like we have a strong group. 💪<br />I'm ready to get after it and pick up some new tricks along the way.`
   },
