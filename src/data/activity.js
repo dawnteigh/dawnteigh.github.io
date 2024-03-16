@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'March 15th, 2024',
+    entry: "Got accepted into the Dallas Software Developers group cohort! I will be working alongside other developers and under the tutelage of a working professional to build a project over the course of six weeks. It starts Monday, which means there will be some overlap with my current hackathon. Busy weeks ahead, but I'm ready to work overtime. My hope is that this experience will, in turn, work overtime for me."
+  },
+  {
     date: 'March 11th, 2024',
     entry: "We have elected to roll with Python for our backend, so I've started to dig into Flatiron's Python/Flask curriculum to get reacquainted with the language."
   },
