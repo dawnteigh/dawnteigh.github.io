@@ -1,5 +1,10 @@
 export const activity = [
   {
+    date: 'March 17th, 2024',
+    entry: `My Github contribution streak ended yesterday. Didn't quite make it a year, but I had a good run. Oh well. 🥲<br />
+    In hackathon news, I've been figuring out how best to represent the data we will be working with in the backend, and also how to integrate with Plaid. I think I've just about got the models looking the way they need to. I can feel the impending avalanche of commits on the wind...`
+  },
+  {
     date: 'March 15th, 2024',
     entry: "Got accepted into the Dallas Software Developers group cohort! I will be working alongside other developers and under the tutelage of a working professional to build a project over the course of six weeks. It starts Monday, which means there will be some overlap with my current hackathon. Busy weeks ahead, but I'm ready to work overtime. My hope is that this experience will, in turn, work overtime for me."
   },
