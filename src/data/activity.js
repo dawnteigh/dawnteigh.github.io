@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'March 22nd, 2024',
+    entry: `I've started a new job, introducing some much-needed structure into my day-to-day. Plus it takes place during some of my least productive hours, so it's honestly kind of ideal. I mean, apart from being a full-time dev. Yesterday I connected my old Zustand tutorial project to a Rails API as part of a presentation for the DSD cohort. Despite not touching that code for months, I was able to reproduce the previous functionality while also persisting tasks to a DB in about an hour. Felt pretty to get that done, but my presentation skills need a little more work. I'm looking forward to more opportunities to talk through code in the next few weeks!`
+  },
+  {
     date: 'March 17th, 2024',
     entry: `My Github contribution streak ended yesterday. Didn't quite make it a year, but I had a good run. Oh well. 🥲<br />
     In hackathon news, I've been figuring out how best to represent the data we will be working with in the backend, and also how to integrate with Plaid. I think I've just about got the models looking the way they need to. I can feel the impending avalanche of commits on the wind...`
