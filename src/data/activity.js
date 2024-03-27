@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'March 26th, 2024',
+    entry: `It's nice to work somewhere again. I'm already looking for additional responsibilities (and thinking of the ways I would improve some of the apps that we use, haha).<br />My second hackathon ended with a bit of a thud today. Having to learn views in Ruby took most of what precious free moments I had. I pride myself on being a quick learner, but I guess I've let myself get a little rusty of late. I also feel that I could have been more proactive in the planning stages; it seemed like our course was never really set. Don't get me wrong, I'm glad I participated. I still learned from the experience. I met some great people, and I enjoyed our chats and pair-programming sessions. Plus, now I have something to talk about when I hear "tell me about a time you experienced failure". 😛<br />This evening I went to the Dallas Software Developers meetup`
+  },
+  {
     date: 'March 22nd, 2024',
     entry: `I've started a new job, introducing some much-needed structure into my day-to-day. Plus it takes place during some of my least productive hours, so it's honestly kind of ideal. I mean, apart from being a full-time dev. Yesterday I connected my old Zustand tutorial project to a Rails API as part of a presentation for the DSD cohort. Despite not touching that code for months, I was able to reproduce the previous functionality while also persisting tasks to a DB in about an hour. Felt pretty to get that done, but my presentation skills need a little more work. I'm looking forward to more opportunities to talk through code in the next few weeks!`
   },
