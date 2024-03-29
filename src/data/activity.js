@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'March 28th, 2024',
+    entry: `Got my first PR merged in the cohort project!<br/><br/><br/>... But I didn't <em>really</em> complete the ticket in time because I couldn't decide on exactly what secure communication entailed. I did plenty of research, and found a multitude of ways to shore up security between our client and two APIs. Rather than locking it up like Fort Knox, I waited for the meeting to get clarification: I am to simply pick something and roll with it. Naturally, I was overthinking it. And my reluctance to ask for help didn't... help. Glad I'm running into this stuff now and not on the job!`
+  },
+  {
     date: 'March 26th, 2024',
     entry: `It's nice to work somewhere again. I'm already looking for additional responsibilities (and thinking of the ways I would improve some of the apps that we use, haha).<br />My second hackathon ended with a bit of a thud today. Having to learn views in Ruby took most of what precious free moments I had. I pride myself on being a quick learner, but I guess I've let myself get a little rusty of late. I also feel that I could have been more proactive in the planning stages; it seemed like our course was never really set. Don't get me wrong, I'm glad I participated. I still learned from the experience. I met some great people, and I enjoyed our chats and pair-programming sessions. Plus, now I have something to talk about when I hear "tell me about a time you experienced failure" in interviews. 😛<br />This evening I went to the Dallas Software Developers meetup. Had a few chats, learned a few things, and came away feeling a part of the community once more.`
   },
