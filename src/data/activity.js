@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: 'March 31st, 2024',
+    entry: `Been reading up on the <a href="https://github.com/rack/rack-attack">Rack Attack</a> gem to add some security to the cohort project. It seems silly to use rate limiting on this particular application, but I don't know what else to do right now; I need a particular merge to happen before I can really get going. Or am I going about this wrong? All part of the learning experience!`
+  },
+  {
     date: 'March 28th, 2024',
     entry: `Got my first PR merged in the cohort project!<br/><br/><br/>... But I didn't <em>really</em> complete the ticket in time because I couldn't decide on exactly what secure communication entailed. I did plenty of research, and found a multitude of ways to shore up security between our client and two APIs. Rather than locking it up like Fort Knox, I waited for the meeting to get clarification: I am to simply pick something and roll with it. Naturally, I was overthinking it. And my reluctance to ask for help didn't... help. Glad I'm running into this stuff now and not on the job!`
   },
