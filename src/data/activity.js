@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "April 2nd, 2024",
+    entry: `Read about <a href="https://github.com/waiting-for-dev/devise-jwt" target="_blank">devise-jwt</a>, an extension to <a href="https://github.com/heartcombo/devise" target="_blank">devise</a> that allows for the use of JWT tokens for user auth. Found what I'm going to implement to complete my ticket!`
+  },
+  {
     date: 'March 31st, 2024',
     entry: `Been reading up on the <a href="https://github.com/rack/rack-attack">Rack Attack</a> gem to add some security to the cohort project. It seems silly to use rate limiting on this particular application, but I don't know what else to do right now; I need a particular merge to happen before I can really get going. Or am I going about this wrong? All part of the learning experience!`
   },
