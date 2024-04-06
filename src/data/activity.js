@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "April 4th, 2024",
+    entry: "Got devise-jwt working! It was interesting to read about revocation strategies (the gem in question expects tokens to be revoked). I went with a JTI (JSON Web Token ID) column in the User table that changes upon signing in and out."
+  },
+  {
     date: "April 2nd, 2024",
     entry: `Read about <a href="https://github.com/waiting-for-dev/devise-jwt" target="_blank">devise-jwt</a>, an extension to <a href="https://github.com/heartcombo/devise" target="_blank">devise</a> that allows for the use of JWT tokens for user auth. Found what I'm going to implement to complete my ticket!`
   },
