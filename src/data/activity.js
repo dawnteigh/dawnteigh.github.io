@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "April 19th, 2024",
+    entry: "Man, has it been a while! The first couple of weeks on the job have left me with a bit of an energy deficit. Between that and working on the cohort project, what brief respite I can find goes toward good old relaxation. Hence, no blog posts. But no longer! Starting today, I'm going to get back into the swing of things and attack my tech job search with renewed vigor. The DSD cohort ends soon, and we have to record a demo video by the 23rd. The project is almost complete, albeit a slimmed down version. Bright and early tomorrow morning, I'm going to incorporate React-Redux into the project to help manage the many collections we will be working with in client-side state. And as a bonus, I will use a request library for the first time (at least I think). RTK Query will allow me to build an API slice to add to our Redux store, saving us from writing fetch requests over and over again. Instead we will have a bunch of handy hooks to call in our components. Neat!"
+  },
+  {
     date: "April 4th, 2024",
     entry: "Got devise-jwt working! It was interesting to read about revocation strategies (the gem in question expects tokens to be revoked). I went with a JTI (JSON Web Token ID) column in the User table that changes upon signing in and out."
   },
