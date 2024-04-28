@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "April 27th, 2024",
+    entry: "It was time again (already?!) to replace my expired PostgreSQL instance on Render. It only took me five minutes this time around to create a new one and connect and re-deploy my apps. AND I did it all from memory! Honestly, all DB work should be done from memory. 😎"
+  },
+  {
     date: "April 23rd, 2024",
     entry: "Got the user auth flow working with RTK Query a couple days ago, successfully storing the user object in state and depositing the JWT in localStorage. We spent the next days scrambling to connect the pieces enough to get a working demo video by this afternoon, and another team member came through in a big way and produced one in the eleventh hour (with lots of hard coded data, no doubt!). I then attended the DSD meetup where the presentation videos would be played, but we only got through three or four before the floor had to be ceded to the guest speaker in the interest of time. So... didn't have to go up and present after all! To be fair, the guest speaker from Netflix gave a great crash course and talk on machine learning and computer vision. And I got to connect with a couple of my teammates and a few new folks! Looking forward to the next one."
   },
