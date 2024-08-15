@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "August 8th, 2024",
+    entry: `Attended a DSD meeting with talks on JavaScript subjects today. I always come away from these meetups with renewed motivation, so I thought it would be the perfect way to end my recent development hiatus and get back to the grind of the job search. It worked, because I already knew or otherwise followed along with everything that was discussed. I was also able to quickly re-up my Render PostgreSQL instance and make sure all of my apps were working between talks.<br>I've learned a lot about myself in my time away from the keyboard, and now it's time to inject that knowledge and experience into some cover letter drafts and get back on that horse.`
+  },
+  {
     date: "April 27th, 2024",
     entry: "It was time again (already?!) to replace my expired PostgreSQL instance on Render. It only took me five minutes this time around to create a new one and connect and re-deploy my apps. AND I did it all from memory! Honestly, all DB work should be done from memory. 😎"
   },
