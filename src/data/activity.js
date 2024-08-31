@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "August 30th, 2024",
+    entry: `Been working a lot lately, but I've found some time here and there to tweak my resume and apply to a few things. I've also identified a new project that I'm excited to build! It will be a great way to knock off any rust that I might have accumulated and show that I'm still capable and very serious about this. <br>Side note: free Render databases expire after just one month now? Not cool, guys. 😛`
+  },
+  {
     date: "August 8th, 2024",
     entry: `Attended a DSD meeting with talks on JavaScript subjects today. I always come away from these meetups with renewed motivation, so I thought it would be the perfect way to end my recent development hiatus and get back to the grind of the job search. It worked, because I already knew or otherwise followed along with everything that was discussed. I was also able to quickly re-up my Render PostgreSQL instance and make sure all of my apps were working between talks.<br>I've learned a lot about myself in my time away from the keyboard, and now it's time to inject that knowledge and experience into some cover letter drafts and get back on that horse.`
   },
