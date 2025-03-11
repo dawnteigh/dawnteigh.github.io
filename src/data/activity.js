@@ -1,5 +1,9 @@
 export const activity = [
   {
+    date: "March 10th, 2025",
+    entry: "I'm officially back in the lab, so I'll be updating this again. Lucky you! I've been cooking a few things. First, I'm in the middle of another Dallas Software Developers cohort project! It's been a challenge to get back in the swing of things, but I'm starting to kick into high gear. It's nice to be working with a group again, and I'm excited to see what we end up with. I've also been taking cloud computing courses, and I have a freelance gig rebuilding a company's Wordpress site. I'm staying busy, and doing all I can to become more visible."
+  },
+  {
     date: "September 27th, 2024",
     entry: `I got married! And that's pretty much all I've done, haha. I'm pretty bad at being my own boss. Probably because I don't pay myself. I'm much more entrepreneurial and prolific at my current job. I went above and beyond at my previous one as well. I take pride in turning in a good performance, day in and day out. With this, I guess it's just felt like no one is watching. Which is silly, because if I'm not putting in work, there is nothing to watch anyway. So I'm going to hold myself accountable and make it a point to push code every day, like before (and this blog doesn't count)! I'm going to code for me, until I earn the privilege of coding for a living.<br>Tomorrow I'll start back up on learning Typescript and get the ball rolling on a small project before I tackle the larger one I mentioned previously. I also need to re-up my Render DB again.`
   },
